@@ -1,6 +1,14 @@
 # INFO4-PS
 
 ## Schedule
-to be announced
+https://zimbra.inria.fr/home/arnaud.legrand@inria.fr/Teaching_INFO4.html
 
-## Important links
+### 09/10/2020 Lecture
+#### Documents
+- Book
+- Slides
+- Additional references:
+   + TBD
+#### Assignments
+- Quick
+- Install R and Rstudio
