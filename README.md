@@ -126,7 +126,7 @@ Rstudio may complain that it requires upgraded versions of knitr,
 rmarkdown and tinytex... :( Just proceed and you'll be ready for the
 practical session.
 
-## [14-10-2020] Practical Session 1
+## [14-09-2020] Practical Session 1
 Today, we'll get familiar with R and Rstudio. I'll roughly cover this
 [tutorial on
 Rstudio](http://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/index.html)
