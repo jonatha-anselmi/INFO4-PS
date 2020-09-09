@@ -11,7 +11,7 @@ and the official schedule with room information is
 
 | Semaine    | Cours (Jeudi, 10h00-11h30)                      | TD (Vendredi, 9h45-13h00)                                                 |
 |:-----------|:------------------------------------------------|:--------------------------------------------------------------------------|
-| 7-11 sep.  | 14h00-15h00 [Introduction au cours](#lecture-1) | (-> Lundi 14) [Introduction à Rstudio et Rmarkdown](#practical-session-1) |
+| 7-11 sep.  | 14h00-15h00 [Introduction au cours](#10-09-2020-lecture-1) | (-> Lundi 14) [Introduction à Rstudio et Rmarkdown](#practical-session-1) |
 | 14-18 sep. | [Probability basics](#lecture-2)                |                                                                           |
 | 21-25 sep. | [TBA](#lecture-3)                               |                                                                           |
 | 28-02 sep. | [TBA](#lecture-4)                               |                                                                           |
