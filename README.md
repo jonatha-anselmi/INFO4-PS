@@ -8,6 +8,10 @@ The pad is [here](http://pads.univ-grenoble-alpes.fr/p/INFO4_PS_20)
 and the official schedule with room information is
 [here](http://redirect.univ-grenoble-alpes.fr/ADE_ETUDIANTS_POLYTECH).
 
+In this lecture, we will follow and cover most of the material
+presented in [Probabilités et statistique pour
+l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf), by
+Benjamin Jourdain.
 
 | Semaine    | Cours (Jeudi, 10h00-11h30)                      | TD (Vendredi, 9h45-13h00)                                                 |
 |:-----------|:------------------------------------------------|:--------------------------------------------------------------------------|
@@ -32,9 +36,6 @@ and the official schedule with room information is
 
 ## [10-09-2020] Lecture 1
 ### Documents
-- We will follow and cover most of the material presented in
-  [Probabilités et statistique pour l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf),
-  by Benjamin Jourdain.
 - Slides
    + My slides
    + [Le hasard en informatique](http://www.lifl.fr/~jdelahay/pls/1998/051.pdf) by Delahay
