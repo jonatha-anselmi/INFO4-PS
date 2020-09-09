@@ -29,7 +29,7 @@ For next Monday (the practical session), you should
 Take 10-20 minutes to answer this [Quick survey](pdf/Quick_0.pdf)
 and send your answers (as an annotated pdf) to
 `arnaud.legrand@imag.fr` with the following subject `[INFO4-PS] Quick
-0 First Name, Last Name`. This should be done before Friday evening so
+0 Nom, Prénom`. This should be done before Friday evening so
 that we can analyze them before the next lecture. This survey will not
 be graded, so no need to worry/cheat/whatever. The main objective is
 (1) for us to identify those who need specific help in calculus (2)
