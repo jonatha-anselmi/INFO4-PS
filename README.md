@@ -42,7 +42,7 @@ Windows, you may want to have a look at [these
 guidelines](https://gitlab.inria.fr/learninglab/mooc-rr/mooc-rr-ressources/-/blob/master/module2/ressources/rstudio_fr.org)):
 
 ``` shell
-    sudo apt-get install r-base r-cran-knitr r-cran-tidyverse
+sudo apt-get install r-base r-cran-knitr r-cran-tidyverse
 ```
 	
 Installing software through your OS package manager is generally
@@ -51,7 +51,7 @@ from R itself. Make sure you have a recent (>= 3.2.0) version or R. For example,
 here is what I have on my machine:
 	
 ``` shell	
-    R --version
+R --version
 ```
 
     R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
@@ -79,17 +79,17 @@ you should obviously change the version number and you may have to
 update the url so that it matches your OS).
 
 ``` shell
-   cd /tmp/
-   wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.3.1073-amd64.deb
-   sudo dpkg -i rstudio-1.3.1073-amd64.deb
-   sudo apt-get update ; sudo apt-get -f install # to fix possibly missing dependencies
+cd /tmp/
+wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.3.1073-amd64.deb
+sudo dpkg -i rstudio-1.3.1073-amd64.deb
+sudo apt-get update ; sudo apt-get -f install # to fix possibly missing dependencies
 ```
 
 You may have trouble when installing some R packages. If so, try to
 install these ones:
 
 ``` shell
-   sudo apt-get install libcurl4-openssl-dev libssl-dev
+sudo apt-get install libcurl4-openssl-dev libssl-dev
 ```
 
 Finally you should be able to open rstudio. Try then to open a new
