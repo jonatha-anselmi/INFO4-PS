@@ -1,10 +1,37 @@
 # INFO4-PS
 
-## Schedule
-https://zimbra.inria.fr/home/arnaud.legrand@inria.fr/Teaching_INFO4.html
+[Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the
+lectures while [Arnaud Legrand](mailto:arnaud.legrand@imag.fr) is in
+charge of practical sessions.
 
-### 09/10/2020 [Lecture]
-#### Documents
+The pad is [here](http://pads.univ-grenoble-alpes.fr/p/INFO4_PS_20)
+and the official schedule with room information is
+[here](http://redirect.univ-grenoble-alpes.fr/ADE_ETUDIANTS_POLYTECH).
+
+
+| Semaine    | Cours (Jeudi, 10h00-11h30)                      | TD (Vendredi, 9h45-13h00)                                                 |
+|:-----------|:------------------------------------------------|:--------------------------------------------------------------------------|
+| 7-11 sep.  | 14h00-15h00 [Introduction au cours](#lecture-1) | (-> Lundi 14) [Introduction à Rstudio et Rmarkdown](#practical-session-1) |
+| 14-18 sep. | [Probability basics](#lecture-2)                |                                                                           |
+| 21-25 sep. | [TBA](#lecture-3)                               |                                                                           |
+| 28-02 sep. | [TBA](#lecture-4)                               |                                                                           |
+| 05-09 oct. | [TBA](#lecture-5)                               | [TBA](#practical-session-2)                                               |
+| 12-16 oct. | [TBA](#lecture-6)                               | [TBA](#practical-session-3)                                               |
+| 19-23 oct. | [TBA](#lecture-7)                               | [TBA](#practical-session-4)                                               |
+| 26-3O oct. | Vacances                                        | Vacances                                                                  |
+| 02-06 nov. | [TBA](#lecture-8)                               | [TBA](#practical-session-5)                                               |
+| 09-13 nov. | [TBA](#lecture-9)                               | [TBA](#practical-session-6)                                               |
+| 16-20 nov. | [TBA](#lecture-10)                              | [TBA](#practical-session-7)                                               |
+| 23-27 nov. | [TBA](#lecture-11)                              | [TBA](#practical-session-8)                                               |
+| 30-03 nov. | [TBA](#lecture-12)                              | [TBA](#practical-session-9)                                               |
+| 07-11 dec. | [TBA](#lecture-13)                              | [TBA](#practical-session-10)                                              |
+| 14-18 dec. |                                                 | [TBA](#practical-session-11)                                              |
+| 21-25 dec. | Vacances                                        | Vacances                                                                  |
+| 28-01 dec. | Vacances                                        | Vacances                                                                  |
+| 04-09 jan. | Exam?                                           |                                                                           |
+
+## [10-09-2020] Lecture 1
+### Documents
 - We will follow and cover most of the material presented in
   [Probabilités et statistique pour l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf),
   by Benjamin Jourdain.
@@ -22,7 +49,7 @@ https://zimbra.inria.fr/home/arnaud.legrand@inria.fr/Teaching_INFO4.html
    + Initiation aux Probabilités, by P. Brémaud (un ouvrage de référence, très très complet)
    + [Theoretical Computer Science Cheat Sheet](https://www.tug.org/texshowcase/cheat.pdf) :)
 
-#### Assignments
+### Assignments
 For next Monday (the practical session), you should
 
 ##### Answer our calculus survey
@@ -99,7 +126,7 @@ Rstudio may complain that it requires upgraded versions of knitr,
 rmarkdown and tinytex... :( Just proceed and you'll be ready for the
 practical session.
 
-#### 14/10/2020 [Practical Session]
+## [14/10/2020] Practical Session 1
 Today, we'll get familiar with R and Rstudio. I'll roughly cover this
 [tutorial on
 Rstudio](http://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/index.html)
@@ -108,3 +135,7 @@ Markdown](https://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/))
 and show you how to use R to simulate and study simple stochastic
 scenarios. 
 
+TBD: Describe the scenario and various code we came up with.
+
+## [17-09-2020] Lecture 2
+### Documents
