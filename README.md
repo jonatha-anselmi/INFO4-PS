@@ -26,7 +26,7 @@ https://zimbra.inria.fr/home/arnaud.legrand@inria.fr/Teaching_INFO4.html
 For next Monday (the practical session), you should
 
 ##### Answer our calculus survey
-Take 10-20 minutes to answer this [Quick survey](file:pdf/Quick_0.pdf)
+Take 10-20 minutes to answer this [Quick survey](pdf/Quick_0.pdf)
 and send your answers (as an annotated pdf) to
 `arnaud.legrand@imag.fr` with the following subject `[INFO4-PS] Quick
 0 First Name, Last Name`. This should be done before Friday evening so
