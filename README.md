@@ -11,8 +11,8 @@ and the official schedule with room information is
 
 | Semaine    | Cours (Jeudi, 10h00-11h30)                      | TD (Vendredi, 9h45-13h00)                                                 |
 |:-----------|:------------------------------------------------|:--------------------------------------------------------------------------|
-| 7-11 sep.  | 14h00-15h00 [Introduction au cours](#10-09-2020-lecture-1) | (-> Lundi 14) [Introduction à Rstudio et Rmarkdown](#practical-session-1) |
-| 14-18 sep. | [Probability basics](#lecture-2)                |                                                                           |
+| 7-11 sep.  | 14h00-15h00 [Introduction au cours](#10-09-2020-lecture-1) | (-> Lundi 14) [Introduction à Rstudio et Rmarkdown](#14-09-2020-practical-session-1) |
+| 14-18 sep. | [Probability basics](#21-09-2020-lecture-2)                |                                                                           |
 | 21-25 sep. | [TBA](#lecture-3)                               |                                                                           |
 | 28-02 sep. | [TBA](#lecture-4)                               |                                                                           |
 | 05-09 oct. | [TBA](#lecture-5)                               | [TBA](#practical-session-2)                                               |
@@ -126,7 +126,7 @@ Rstudio may complain that it requires upgraded versions of knitr,
 rmarkdown and tinytex... :( Just proceed and you'll be ready for the
 practical session.
 
-## [14/10/2020] Practical Session 1
+## [14-10-2020] Practical Session 1
 Today, we'll get familiar with R and Rstudio. I'll roughly cover this
 [tutorial on
 Rstudio](http://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/index.html)
