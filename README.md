@@ -136,6 +136,10 @@ Markdown](https://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/))
 and show you how to use R to simulate and study simple stochastic
 scenarios. 
 
+Note that those of you that would prefer a textbook introducing R (not
+Rstudio) may want to read [R for
+Beginners](http://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf).
+
 TBD: Describe the scenario and various code we came up with.
 
 ## [17-09-2020] Lecture 2
