@@ -53,8 +53,8 @@ Benjamin Jourdain.
 Course content, objectives and organization.
 
 - Started Chapter 1:
-   + Definition of probability over a finite state space $\Omega$
-   + Identification/Construction of $\Omega$ for some examples (eg, [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem))
+   + Definition of probability over a finite state space <img src="https://render.githubusercontent.com/render/math?math=\Omega">
+   + Identification/Construction of <img src="https://render.githubusercontent.com/render/math?math=\Omega"> for some examples (eg, the [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem))
 
 
 ### Assignments
