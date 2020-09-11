@@ -50,7 +50,12 @@ Benjamin Jourdain.
 ## [10-09-2020] Lecture 1
 ### Documents
 
-Course content and organization.
+Course content, objectives and organization.
+
+- Started Chapter 1:
+   + Definition of probability over a finite state space $\Omega$
+   + Identification/Construction of $\Omega$ for some examples (eg, [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem))
+
 
 ### Assignments
 For the practical session of next Monday (14/09), you should
