@@ -163,14 +163,12 @@ Here are the Rmd files we wrote during this session:
   R. A quite effective way is to use [SWIRL](http://swirlstats.com/),
   an interactive learning environment that will guide through
   self-paced lesson.
-
   ``` R
-install.packages("swirl")
-library(swirl)
-install_from_swirl("R Programming")
-swirl()
+  install.packages("swirl")
+  library(swirl)
+  install_from_swirl("R Programming")
+  swirl()
   ```
-
   You should look at lessons `4: Vectors`, `6: Subsetting Vectors`,
   `12: Looking at Data`, and `13: Simulation` since this is roughly
   what we covered today.
