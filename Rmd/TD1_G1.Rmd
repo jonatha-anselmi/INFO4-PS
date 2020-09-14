@@ -1,0 +1,151 @@
+---
+title: "Démo INFO4"
+author: "Arnaud Legrand"
+date: "14/09/2020"
+output: html_document
+---
+
+# Les vecteurs
+```{r}
+str(integer(1)) # str permet de connaître le type
+str(2.0)
+```
+
+```{r}
+x = c(1,4,5) # ou x <- c(1,4,5) . Il y a aussi <<- qui a une sémantique différente
+x
+str(x) # Notons que x est constitué de num et pas d'int.
+?c # pour avoir l'aide sur la fonction c
+?rnorm
+x = c(x,x) # On peut concaténer
+x[1]
+x[6]
+x[7]
+x[0]   #  Ooups. À éviter
+x[-2]  # Possible mais à éviter sauf si vous savez vraiment ce que vous faites.
+x[-(2:4)]
+x[length(x)]
+x[12]=12 # Les valeurs de 7 à 11 sont alors des NA
+x
+```
+
+```{r}
+x = rep(0,10)  # Initialisation à 0
+x=1:10
+str(x)   # Ah, tiens, là, ce sont des int car ça a été construit à partir d'un itérateur
+x+sin(x)
+x + (1:3) # Meeeh
+x + (1:5) # Why not ?
+x[0]
+x<3
+x[x<5 | x > 8]
+ifelse(x%%2==0, x, x*x)  # Et la super fonction ifelse
+```
+
+```{r}
+plot(sin(x))  # ou log, ou exp, ou ... toutes les fonctions de R sont vectorielles
+```
+
+## data frame
+
+```{r}
+df = data.frame(x=1:12,y=c("toto","tata","titi"))
+df$x
+df[2:3,]
+df[2:3,"x"]
+
+df[df$y == "toto",] # SELECT FROM ... WHERE ...
+```
+
+```{r}
+df[(1:nrow(df))%% 3 == 0,]$x = 5 # Défi: Mettre à 5 le x des lignes dont l'idx est divisible par 3...
+df
+```
+
+```{r}
+rbind(df,df)
+cbind(df,df)
+names(df) = c("X","Y") # Changer le nom des colonnes. Étonnant, non ?
+df
+```
+
+## Génération de nombres aléatoires
+
+```{r}
+1+9*runif(10)  # À la C
+runif(10,1,10) # Pas bien lisible. À éviter.
+runif(10,10,1) # Pas ce qu'on cherche à faire.
+runif(10, min = 1, max = 10) # YES!
+runif(10, max = 10, min = 1) # OK mais pas très logique comme écriture.
+```
+
+Notez les points sur le nombre variable d'arguments, les arguments
+nommés et les valeurs par défaut... 
+
+Et comment générer un D10 ?
+```{r}
+round(runif(10, min = 1, max = 10)) # Bof, non, pas bon
+floor(runif(10, min = 1, max = 11)) # OK. On pourrait utiliser as.integer aussi
+sample(x=1:10, size = 100, replace = T)  # YES!
+sample(x=1:10, size = 10, replace = F)   # une permutation
+```
+
+Toutes les lois dont vous pouvez rêver sont déjà là et vous pouvez
+facilement vérifier que ça fait bien ce qu'il faut.
+```{r}
+hist(runif(1000))
+hist(rnorm(1000))
+hist(rexp(1000))
+```
+
+## Monsieur et Madame Chpatamob
+Ont deux enfants dont (au moins) un fils. Quelle est la probabilité
+que l'autre soit un garçon ?
+
+|   | F    | G       |
+|:--|:-----|:--------|
+| F | Nope | Yes     |
+| G | Yes  | **Yes** |
+
+Chacune des 4 situations est équiprobable donc cas en gras divisé par
+les cas à Yes: $1/3$. 
+
+Vérifions empiriquement:
+```{r}
+N = 1000000
+Child1 = sample(x=c("F","G"), size = N, replace = T)
+Child2 = sample(x=c("F","G"), size = N, replace = T)
+df = data.frame(Child1 = Child1, Child2 = Child2)
+## nrow(df[df$Child1 == "G" & df$Child2 == "G",])/nrow(df[df$Child1 == "G" | df$Child2 == "G",])
+df = df[df$Child1 == "G" | df$Child2 == "G",]
+nrow(df[df$Child1 == "G" & df$Child2 == "G",])/nrow(df)
+```
+
+## Monsieur et Madame Chpatamob
+Ont deux enfants dont un fils qui s'appelle Omar. Quelle est la
+probabilité que l'autre soit un garçon ?
+
+```{r}
+PrenomsG = c("Omar", "Fred", "Martin", "Alex", "Diego")
+PrenomsF = c("Marie-Sophie", "Alix", "Chloé", "Nadia", "Laia")
+N = 10000
+Child1 = sample(x=c("F","G"), size = N, replace = T)
+Child2 = sample(x=c("F","G"), size = N, replace = T)
+df = data.frame(Child1 = Child1, Child2 = Child2)
+df$Child1P = ifelse(df$Child1 == "G", 
+                      sample(PrenomsG, N, replace = T),
+                      sample(PrenomsF, N, replace = T))
+df$Child2P = ifelse(df$Child2 == "G", 
+                      sample(PrenomsG, N, replace = T),
+                      sample(PrenomsF, N, replace = T))
+
+# L'état civil interdit d'avoir deux personnes avec les mêmes noms de
+# famille et prénom. On supprime donc ces familles des
+# possiblités. Mais je vous invite à vérifier si c'est de là que vient
+# la différence entre les deux simulations.
+df = df[df$Child1P != df$Child2P,]
+
+df = df[df$Child1P == "Omar" | df$Child2P == "Omar",]
+nrow(df[df$Child1 == "G" & df$Child2 == "G",])/nrow(df)
+```
+

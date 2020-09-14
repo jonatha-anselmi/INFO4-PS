@@ -134,19 +134,54 @@ rmarkdown and tinytex... :( Just proceed and you'll be ready for the
 practical session.
 
 ## [14-09-2020] Practical Session 1
+### Documents
 Today, we'll get familiar with R and Rstudio. I'll roughly cover this
 [tutorial on
 Rstudio](http://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/index.html)
 and this tutorial on [R
 Markdown](https://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/))
 and show you how to use R to simulate and study simple stochastic
-scenarios. 
+scenarios. I've tried to explain you some of the principles and a few
+possble pitfals but as you may have understood R is a very particular
+language so I encourage you to read this [newcomer’s (angry) guide to
+R](http://arrgh.tim-smith.us) as it mentions several common pitfals.
 
-Note that those of you that would prefer a textbook introducing R (not
-Rstudio) may want to read [R for
-Beginners](http://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf).
+Here are the Rmd files we wrote during this session:
 
-TBD: Describe the scenario and various code we came up with.
+- [Group 1](Rmd/TD1_G1.Rmd) (I took the time to comment a bit this one)
+- [Group 2](Rmd/TD1_G2.Rmd)
+
+### Assignments
+- Model the second situation (when one of the son is named Omar) and
+  compute the conditional probability assuming you have a probability
+  $\epsilon$ to be named Omar if you are a boy. Check that this
+  probability tends to $1/2$ when $\epsilon$ tends to 0. Check that
+  the value you computed with your simulation corresponds to
+  $\epsilon=0.2$.
+  
+- Learn the basics of data manipulation (vector and data frames) with
+  R. A quite effective way is to use [SWIRL](http://swirlstats.com/),
+  an interactive learning environment that will guide through
+  self-paced lesson.
+
+  ``` R
+install.packages("swirl")
+library(swirl)
+install_from_swirl("R Programming")
+swirl()
+  ```
+
+  You should look at lessons `4: Vectors`, `6: Subsetting Vectors`,
+  `12: Looking at Data`, and `13: Simulation` since this is roughly
+  what we covered today.
+
+  Those of you that would prefer a textbook introducing R (not
+  Rstudio) may want to read [R for
+  Beginners](http://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf)
+  but it will not provide you with as much practice as when using
+  swirl. If you really hate typing commands as swirl is suggesting,
+  you may find the scenarios in the github webpage (e.g.,
+  https://github.com/swirldev/swirl_courses/blob/master/R_Programming/Simulation/lesson.yaml)
 
 ## [17-09-2020] Lecture 2
 ### Documents

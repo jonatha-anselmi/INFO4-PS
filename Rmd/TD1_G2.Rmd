@@ -1,0 +1,176 @@
+---
+title: "Démo R INFO4"
+author: "Arnaud Legrand"
+date: "14/09/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Les vecteurs
+```{r}
+x = c(1,4,5)
+str(as.integer(x))
+?c
+?rnorm
+x = 1:6
+str(x)
+```
+
+```{r}
+x = c(1,4,5)
+x = c(x,x)
+x+x
+sin(log(x*x))
+x==1
+x[3:6]
+x[0]
+x[8]
+x[-(2:4)]
+y=1:4
+x[1:length(x)]
+```
+
+```{r}
+x[x>=3]
+```
+
+```{r}
+x + c(1,2,3,4)
+```
+
+```{r}
+ifelse(x<2,x-3, x*x)
+```
+
+## Data frame
+```{r}
+df = data.frame(idx = 1:10, name = c("toto","tata"))
+nrow(df)
+ncol(df)
+names(df)  # les noms des colonnes
+df$idx
+```
+
+```{r}
+df[3:5,"name"]
+df[4:7,]
+```
+
+```{r}
+df[df$name == "toto",]
+```
+
+```{r}
+?read.csv
+df2 = rbind(df,df)
+cbind(df,df)
+names(df) = c("Idx", "Names")
+df
+```
+
+
+## Génération de nombres aléatoires
+```{r}
+1+9*runif(10)
+runif(10,1,10)
+runif(10, min = 1, max = 10)
+as.integer(runif(100, min = 1, max = 11)) # floor, round, ceil, 
+```
+
+```{r}
+sample(x = 1:10, size = 30, replace = T)
+sample(x = 1:10, size = 10, replace = F)
+```
+
+```{r}
+hist(rexp(100))
+hist(rnorm(100))
+plot(rnorm(100))
+```
+
+
+## Monsieur et madame Chpatamob 
+ont 2 enfants dont un fils. Quelle est la probabilité que l'autre soit un garçon ?
+
+```{r}
+N = 1000000
+
+Child1 = sample(x = c("F","G"), size = N, replace = T)
+Child2 = sample(x = c("F","G"), size = N, replace = T)
+df = data.frame(Child1 = Child1, Child2 = Child2)
+
+df = df[df$Child1 == "G" | df$Child2 == "G",]
+nrow(df[df$Child1 == "G" & df$Child2 == "G",]) / nrow(df)
+```
+
+
+## Monsieur et madame Chpatamob 
+ont 2 enfants dont un fils qui s'appelle Omar. Quelle est la probabilité que l'autre soit un garçon ?
+
+```{r}
+PrenomsG = c("Omar", "Fred", "Alex", "Diego", "Marcel")
+PrenomsF = c("Marie-Sophie", "Louise", "Laia", "Angèle", "Chloé")
+N = 1000000
+
+Child1 = sample(x = c("F","G"), size = N, replace = T)
+Child1P = ifelse(Child1 == "G",
+                   sample(x = PrenomsG, size = N, replace = T),
+                   sample(x = PrenomsF, size = N, replace = T)
+                  )
+Child2 = sample(x = c("F","G"), size = N, replace = T)
+Child2P = ifelse(Child2 == "G",
+                   sample(x = PrenomsG, size = N, replace = T),
+                   sample(x = PrenomsF, size = N, replace = T)
+                  )
+df = data.frame(Child1 = Child1, Child2 = Child2, Child1P = Child1P, Child2P = Child2P)
+
+df = df[df$Child1P != df$Child2P,]
+df = df[df$Child1P == "Omar" | df$Child2P == "Omar",]
+nrow(df[df$Child1 == "G" & df$Child2 == "G",]) / nrow(df)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
