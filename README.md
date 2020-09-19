@@ -182,4 +182,7 @@ Here are the Rmd files we wrote during this session:
   https://github.com/swirldev/swirl_courses/blob/master/R_Programming/Simulation/lesson.yaml)
 
 ## [17-09-2020] Lecture 2
-### Documents
+
+- Chapter 1 (almost finished):
+   + Solution of the [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem) and of its variant "Same birthday as you"
+   + Conditional probability and examples (e.g., Exercise 1.3.10)
