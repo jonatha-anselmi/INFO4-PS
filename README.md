@@ -176,10 +176,16 @@ Here are the Rmd files we wrote during this session:
   Those of you that would prefer a textbook introducing R (not
   Rstudio) may want to read [R for
   Beginners](http://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf)
-  but it will not provide you with as much practice as when using
+  or the following tutorials:
+  1. http://uc-r.github.io/basics
+  2. http://uc-r.github.io/r_markdown
+  3. http://uc-r.github.io/vectors
+  4. http://uc-r.github.io/dataframes
+  But it will not provide you with as much practice as when using
   swirl. If you really hate typing commands as swirl is suggesting,
   you may find the scenarios in the github webpage (e.g.,
   https://github.com/swirldev/swirl_courses/blob/master/R_Programming/Simulation/lesson.yaml)
+
 
 ## [17-09-2020] Lecture 2
 
