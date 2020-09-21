@@ -181,6 +181,7 @@ Here are the Rmd files we wrote during this session:
   2. http://uc-r.github.io/r_markdown
   3. http://uc-r.github.io/vectors
   4. http://uc-r.github.io/dataframes
+
   But it will not provide you with as much practice as when using
   swirl. If you really hate typing commands as swirl is suggesting,
   you may find the scenarios in the github webpage (e.g.,
