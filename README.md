@@ -29,7 +29,7 @@ Benjamin Jourdain.
 |:-----------|:------------------------------------------------|:--------------------------------------------------------------------------|
 | 7-11 sep.  | 14h00-15h00 [Introduction au cours](#10-09-2020-lecture-1) | (-> Lundi 14) [Introduction à Rstudio et Rmarkdown](#14-09-2020-practical-session-1) |
 | 14-18 sep. | [Probability basics](#17-09-2020-lecture-2)                |                                                                           |
-| 21-25 sep. | [TBA](#lecture-3)                               |                                                                           |
+| 21-25 sep. | [Chapter 2](#24-09-2020-lecture-3)                               |                                                                           |
 | 28-02 sep. | [TBA](#lecture-4)                               |                                                                           |
 | 05-09 oct. | [TBA](#lecture-5)                               | [TBA](#practical-session-2)                                               |
 | 12-16 oct. | [TBA](#lecture-6)                               | [TBA](#practical-session-3)                                               |
@@ -193,3 +193,7 @@ Here are the Rmd files we wrote during this session:
 - Chapter 1 (almost finished):
    + Solution of the [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem) and of its variant "Same birthday as you"
    + Conditional probability and examples (e.g., Exercise 1.3.10)
+
+## [24-09-2020] Lecture 3
+
+- Chapter 2 
