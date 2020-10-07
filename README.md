@@ -196,4 +196,16 @@ Here are the Rmd files we wrote during this session:
 
 ## [24-09-2020] Lecture 3
 
-- Chapter 2 
+- Chapter 2: Probability space, discrete random variables, independence, expected value, variance, Theorem 2.3.6 ("Théorème de transfert")  
+
+## [01-10-2020] Lecture 3
+
+- Chapter 2: A reasoned introduction to common probability law (Bernoulli, Binomial, Poisson and Geometric), exercices
+
+## [08-10-2020] Lecture 3
+
+- Chapter 2: Conditional expectation
+   + We do not cover the part on generating functions (Section 2.4).
+
+- Chapter 3: Continuous random variables, pdf, cdf, expected value, variance, conditional expectation
+
