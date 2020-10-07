@@ -30,8 +30,8 @@ Benjamin Jourdain.
 | 7-11 sep.  | 14h00-15h00 [Introduction au cours](#10-09-2020-lecture-1) | (-> Lundi 14) [Introduction à Rstudio et Rmarkdown](#14-09-2020-practical-session-1) |
 | 14-18 sep. | [Probability basics](#17-09-2020-lecture-2)                |                                                                           |
 | 21-25 sep. | [Chapter 2](#24-09-2020-lecture-3)                               |                                                                           |
-| 28-02 sep. | [TBA](#lecture-4)                               |                                                                           |
-| 05-09 oct. | [TBA](#lecture-5)                               | [TBA](#practical-session-2)                                               |
+| 28-02 sep. | [Chapter 2](#lecture-4)                               |                                                                           |
+| 05-09 oct. | [Chapter 3](#lecture-5)                               | [TBA](#practical-session-2)                                               |
 | 12-16 oct. | [TBA](#lecture-6)                               | [TBA](#practical-session-3)                                               |
 | 19-23 oct. | [TBA](#lecture-7)                               | [TBA](#practical-session-4)                                               |
 | 26-3O oct. | Vacances                                        | Vacances                                                                  |
@@ -198,11 +198,11 @@ Here are the Rmd files we wrote during this session:
 
 - Chapter 2: Probability space, discrete random variables, independence, expected value, variance, Theorem 2.3.6 ("Théorème de transfert")  
 
-## [01-10-2020] Lecture 3
+## [01-10-2020] Lecture 4
 
 - Chapter 2: A reasoned introduction to common probability law (Bernoulli, Binomial, Poisson and Geometric), exercices
 
-## [08-10-2020] Lecture 3
+## [08-10-2020] Lecture 5
 
 - Chapter 2: Conditional expectation
    + We do not cover the part on generating functions (Section 2.4).
