@@ -32,7 +32,7 @@ Benjamin Jourdain.
 | 21-25 sep. | [Chapter 2](#24-09-2020-lecture-3)                               |                                                                           |
 | 28-02 sep. | [Chapter 2](#lecture-4)                               |                                                                           |
 | 05-09 oct. | [Chapter 3](#lecture-5)                               | [TBA](#practical-session-2)                                               |
-| 12-16 oct. | [TBA](#lecture-6)                               | [TBA](#practical-session-3)                                               |
+| 12-16 oct. | [Random generation of Discrete Random variable](#lecture-6)                               | [TBA](#practical-session-3)                                               |
 | 19-23 oct. | [TBA](#lecture-7)                               | [TBA](#practical-session-4)                                               |
 | 26-3O oct. | Vacances                                        | Vacances                                                                  |
 | 02-06 nov. | [TBA](#lecture-8)                               | [TBA](#practical-session-5)                                               |
@@ -209,3 +209,7 @@ Here are the Rmd files we wrote during this session:
 
 - Chapter 3: Continuous random variables, pdf, cdf, expected value, variance, conditional expectation
 
+## [15-10-2020] Lecture 6
+
+- Chapter 3: Exercise 3.5.8 and 3.5.14.
+- Chapter 4: Random generation of discrete random variables
