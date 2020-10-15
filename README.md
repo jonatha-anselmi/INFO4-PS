@@ -211,5 +211,5 @@ Here are the Rmd files we wrote during this session:
 
 ## [15-10-2020] Lecture 6
 
-- Chapter 3: Exercise 3.5.8 and 3.5.14 -- Theorem 2.3.6 ("Théorème de transfert") again!
+- Chapter 3: Exercise 3.5.8 and 3.5.14 -- "Théorème de transfert" again! See Theorem 3.3.4, an extension of Theorem 2.3.6 for continuous random variables/vectors.
 - Chapter 4: Random generation of discrete random variables
