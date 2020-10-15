@@ -209,6 +209,16 @@ Here are the Rmd files we wrote during this session:
 
 - Chapter 3: Continuous random variables, pdf, cdf, expected value, variance, conditional expectation
 
+## [09-10-2020] Practical Session 2
+### Documents
+Implementing with R and playing around a few exercises from Chapter 1 of [Probabilités et statistique pour
+l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
+- [Group 1,2](Rmd/TD2_G2.Rmd)
+### Assignments
+Proceed similarly with other exercises from the same chapter. Then try
+to compute the probabilities analytically and check that it is
+coherent with your computer simulations.
+
 ## [15-10-2020] Lecture 6
 
 - Chapter 3: Exercise 3.5.8 and 3.5.14 -- "Théorème de transfert" again! See Theorem 3.3.4, an extension of Theorem 2.3.6 for continuous random variables/vectors.

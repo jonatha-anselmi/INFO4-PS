@@ -1,0 +1,86 @@
+---
+title: "TD INFO4"
+author: "Arnaud Legrand"
+date: "09/10/2020"
+output: html_document
+---
+
+# 1.3.10: les cartes rouges et blanches
+```{r}
+N=1000000
+cartes = as.factor(c("BB","BR","RR")) # le as.factor permet de typer les choses et que R en tienne compte
+tirage = sample(x = cartes, size = N, replace = T)
+# tirage
+# str(tirage)
+# summary(tirage)
+visible = as.factor(ifelse(tirage == "BB", "B",
+                 ifelse(tirage == "RR", "R",
+                  sample(x = c("B","R"), size = N, replace = T))))
+# tirage
+# visible
+tirage = tirage[visible=="R"]
+sum(tirage == "BR")/length(tirage)
+```
+
+La simulation est très proche de la description de la situation. Elle permet de clairement faire apparaître les différentes variables aléatoires et leur indépendance. L'utilisation de la fonction `sample` est préférée à des écritures alambiquées utilisant `runif`. On arrive ainsi à estimer facilement la probabilité que l'autre côté soit blanc sachant que la face visible est rouge. Voici une autre écriture utilisant directement les `data.frame` plutôt qu'un vecteur. C'est un peu plus lourd ici mais c'est une bonne habitude à prendre.
+
+```{r}
+N=1000000
+cartes = as.factor(c("BB","BR","RR"))
+df = data.frame(tirage = sample(x = cartes, size = N, replace = T))
+#tirage
+# str(tirage)
+# summary(tirage)
+df$visible = as.factor(ifelse(df$tirage == "BB", "B",
+                 ifelse(df$tirage == "RR", "R",
+                  sample(x = c("B","R"), size = N, replace = T))))
+# tirage
+# visible
+df = df[df$visible=="R",]
+sum(df$tirage == "BR")/nrow(df)
+```
+
+## 1.3.9 Chasse aux éléphants
+
+Simulons la situation où nos trois chasseurs tirent sur l'éléphant.
+```{r}
+N=1000
+chasseur1 = sample(x=c(T,F), size=N, replace = T, prob = c(1/4,3/4))
+chasseur2 = sample(x=c(T,F), size=N, replace = T, prob = c(1/2,1/2))
+chasseur3 = sample(x=c(T,F), size=N, replace = T, prob = c(3/4,1/4))
+summary(chasseur1)
+summary(chasseur2)
+summary(chasseur3)
+```
+
+On peu alors facilement estimer la probabilité que l'éléphant soit touché par au moins une balle:
+```{r}
+touche = (chasseur1 | chasseur2 | chasseur3)
+sum(touche)/length(touche) # probabilité que l'éléphant soit touché
+```
+
+On peut également estimer la probabilité que l'éléphant soit touché par exactement deux balles (de façon plus ou moins élégante...).
+```{r}
+# sum(((chasseur1 & chasseur2) | (chasseur2 & chasseur3) | (chasseur3 & chasseur1)) & 
+#        (!chasseur1 | !chasseur2 | !chasseur3))
+# sum(chasseur1 + chasseur2 + chasseur3  == 2)
+sum(chasseur1 + chasseur2 + chasseur3 == 2)/N # probabilité que l'éléphant soit touché par exactement 2 balles
+```
+
+Mettons tout ceci dans une data.frame:
+```{r}
+df = data.frame(chasseur1=chasseur1, chasseur2=chasseur2, chasseur3=chasseur3)
+dim(df)
+```
+
+On peut alors conditionner, puis estimer les probabilités conditionnelles que chacun des chasseur ait touché la cible.
+```{r}
+df = df[df$chasseur1 + df$chasseur2 + df$chasseur3 == 2,]
+dim(df)
+sum(df$chasseur1)/nrow(df)
+sum(df$chasseur2)/nrow(df)
+sum(df$chasseur3)/nrow(df)
+```
+
+On peut aussi jouer avec la condition sur le nombre de balles reçues par l'éléphant et regarder comment ces probabilités évoluent. On retrouve évidemment que la probabilité qu'ils aient touché l'éléphant est nulle si ce dernier n'a pas été touche, et égale à 1 si ce dernier a été touché de trois balles...
+
