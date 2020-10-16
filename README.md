@@ -229,3 +229,6 @@ coherent with your computer simulations.
 - Implementing with R Exercise 3.5.14 of [Probabilités et statistique pour
 l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
 - [Pseudo randomness generation](http://polaris.imag.fr/arnaud.legrand/teaching/2015/RICM4_PS_TD3.pdf)
+   - [Group 1,2](Rmd/TD3_G1.Rmd) The R code we wrote during this session.
+### Assignments
+- Exercise 5 (*Comment faire une bonne pièce avec une fausse?*) of the [Pseudo randomness generation](http://polaris.imag.fr/arnaud.legrand/teaching/2015/RICM4_PS_TD3.pdf).

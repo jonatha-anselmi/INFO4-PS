@@ -1,0 +1,75 @@
+---
+title: "INFO4 TD3"
+author: "Arnaud Legrand"
+date: "16/10/2020"
+output: html_document
+---
+
+# Exercice 3.5.14 du poly
+```{r}
+N = 10000
+X1 = abs(rnorm(n = N, mean = 1, sd = 1))*2
+X2 = abs(rnorm(n = N, mean = 1, sd = 1))*2
+# Il faudrait vérifier ici qu'il n'y a pas de valeurs identiques et faire en sorte que X1<X2
+
+PF = sample(x=c(T,F), size = N, replace = T)
+E1 = ifelse(PF, X1, X2)
+E2 = ifelse(PF, X2, X1)
+mean(E1 == pmax(E1,E2))
+```
+
+On retrouve bien le fait qu'il y a une chance sur deux d'avoir la plus grande valeur dans la première enveloppe. Ouf, tout va bien.
+
+```{r}
+Val = rexp(n = N, rate = 1)
+# head(Val)
+Choix = ifelse(Val > E1, E2, E1)
+# head(E1)
+# head(Choix)
+mean(Choix == pmax(E1,E2))
+```
+
+Et là, étonnamment, c'est supérieur à 0.5 et c'est significatif... Bien sûr, cela dépend des distributions utilisées pour X1 et X2 mais quand on change ces distributions et leurs paramètres, s'il arrive qu'on ne gagne vraiment pas grand chose, on ne perd visiblement jamais!
+
+À toute fin utile, voici une autre façon de générer des données et qui a été proposée dans le 2ème groupe:
+```{r}
+X1 = runif(N, min = 0, max = 1)
+X2 = runif(N, min = X1, max = 1)
+PF = sample(x=c(T,F), size = N, replace = T)
+E1 = ifelse(PF, X1, X2)
+E2 = ifelse(PF, X2, X1)
+Val = rexp(n = N, rate = 1)
+```
+
+Enfin, pour comprendre un peu ce qu'il se passe, il peut être intéressant de bien regarder la distribution de nos variables aléatoires:
+```{r}
+hist(X1)
+hist(X2)
+hist(E1)
+hist(E2)
+hist(Val)
+```
+
+# Génération et étude d'une suite congruente simple
+```{r}
+N = 1000
+a = 11
+b = 1
+m = 71
+
+X = 1:N # or "better" X = rep(NA, length = N)
+X[1] = 0
+
+for(i in 2:N) {
+  X[i] = (a*X[i-1] + b) %% m
+}
+Val = 0:(m-1)
+sum(Val %in% X) == m # Atteint-on bien toutes les valeurs possibles ?
+Val[!(Val %in% X)]   # Quelles valeur n'atteint-on pas ?
+
+# X = runif(N) # Il peut être intéressant de regarder ce à quoi les graphes suivant ressemblent lorsqu'on utilise un bon générateur...
+plot(X) # a-t-on des motifs sur le long terme ?
+hist(X) # Est-ce régulier/uniforme ?
+plot(X[-length(X)],X[-1]) # Les valeurs successives sont-elles indépendantes ?
+```
+
