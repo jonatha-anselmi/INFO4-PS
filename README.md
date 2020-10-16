@@ -223,3 +223,9 @@ coherent with your computer simulations.
 
 - Chapter 3: Exercise 3.5.8 and 3.5.14 -- "Théorème de transfert" again! See Theorem 3.3.4, an extension of Theorem 2.3.6 for continuous random variables/vectors.
 - Chapter 4: Random generation of discrete random variables
+
+## [09-10-2020] Practical Session 2
+### Documents
+- Implementing with R Exercise 3.5.14 of [Probabilités et statistique pour
+l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
+- [Pseudo randomness generation](http://polaris.imag.fr/arnaud.legrand/teaching/2015/RICM4_PS_TD3.pdf)
