@@ -33,7 +33,7 @@ Benjamin Jourdain.
 | 28-02 sep. | [Chapter 2](#lecture-4)                               |                                                                           |
 | 05-09 oct. | [Chapter 3](#lecture-5)                               | [TBA](#practical-session-2)                                               |
 | 12-16 oct. | [Random generation of discrete random variables](#lecture-6)                               | [TBA](#practical-session-3)                                               |
-| 19-23 oct. | [TBA](#lecture-7)                               | [TBA](#practical-session-4)                                               |
+| 19-23 oct. | [Random generation of continuous random variables](#lecture-7)                               | [TBA](#practical-session-4)                                               |
 | 26-3O oct. | Vacances                                        | Vacances                                                                  |
 | 02-06 nov. | [TBA](#lecture-8)                               | [TBA](#practical-session-5)                                               |
 | 09-13 nov. | [TBA](#lecture-9)                               | [TBA](#practical-session-6)                                               |
@@ -232,3 +232,13 @@ l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
    - [Group 1,2](Rmd/TD3_G1.Rmd) The R code we wrote during this session.
 ### Assignments
 - Exercise 5 (*Comment faire une bonne pièce avec une fausse?*) of the [Pseudo randomness generation](http://polaris.imag.fr/arnaud.legrand/teaching/2015/RICM4_PS_TD3.pdf).
+
+
+## [22-10-2020] Lecture 7
+
+- Chapter 4: Random generation of continuous random variables
+    + By inversion of the cumulative distribution function  
+    + Polar method for generating normal random variables
+    + Rejection sampling
+    
+For a reminder about the "change of variable" theorem, see Section 3.1.2 of the book (and in particular the solved exercise 3.1.5).
