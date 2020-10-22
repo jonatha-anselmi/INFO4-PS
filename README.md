@@ -30,10 +30,10 @@ Benjamin Jourdain.
 | 7-11 sep.  | 14h00-15h00 [Introduction au cours](#10-09-2020-lecture-1) | (-> Lundi 14) [Introduction à Rstudio et Rmarkdown](#14-09-2020-practical-session-1) |
 | 14-18 sep. | [Probability basics](#17-09-2020-lecture-2)                |                                                                           |
 | 21-25 sep. | [Chapter 2](#24-09-2020-lecture-3)                               |                                                                           |
-| 28-02 sep. | [Chapter 2](#lecture-4)                               |                                                                           |
-| 05-09 oct. | [Chapter 3](#lecture-5)                               | [TBA](#practical-session-2)                                               |
-| 12-16 oct. | [Random generation of discrete random variables](#lecture-6)                               | [TBA](#practical-session-3)                                               |
-| 19-23 oct. | [Random generation of continuous random variables](#lecture-7)                               | [TBA](#practical-session-4)                                               |
+| 28-02 sep. | [Chapter 2](#01-10-2020-lecture-4)                               |                                                                           |
+| 05-09 oct. | [Chapter 3](#08-10-2020-lecture-5)                               | [Modeling and simulating simple conditional situations](#09-10-2020-practical-session-2)                                               |
+| 12-16 oct. | [Random generation of discrete random variables](#15-10-2020-lecture-6)                               | [Generating randomness](#16-10-2020-practical-session-3)                                               |
+| 19-23 oct. | [Random generation of continuous random variables](#22-10-2020-lecture-7)                               | [TBA](#23-10-2020-practical-session-4)                                               |
 | 26-3O oct. | Vacances                                        | Vacances                                                                  |
 | 02-06 nov. | [TBA](#lecture-8)                               | [TBA](#practical-session-5)                                               |
 | 09-13 nov. | [TBA](#lecture-9)                               | [TBA](#practical-session-6)                                               |
@@ -242,3 +242,13 @@ l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
     + Rejection sampling
     
 For a reminder about the "change of variable" theorem, see Section 3.1.2 of the book (and in particular the solved exercise 3.1.5).
+## [23-10-2020] Practical Session 4
+### Documents
+- Exercise 5 (*Comment faire une bonne pièce avec une fausse?*) of the [Pseudo randomness generation](http://polaris.imag.fr/arnaud.legrand/teaching/2015/RICM4_PS_TD3.pdf).
+- [Uniform finite generation](http://polaris.imag.fr/arnaud.legrand/teaching/2016/RICM4_PS_TD3_uniform.pdf)
+- [Discrete generation](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_discrete.pdf)
+   - [Group 1,2](Rmd/TD4_G1.Rmd) The R code we wrote during this  session.
+### Assignments
+- Complete all exercises of both sheets
+
+
