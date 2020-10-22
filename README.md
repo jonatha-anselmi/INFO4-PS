@@ -33,7 +33,7 @@ Benjamin Jourdain.
 | 28-02 sep. | [Chapter 2](#01-10-2020-lecture-4)                               |                                                                           |
 | 05-09 oct. | [Chapter 3](#08-10-2020-lecture-5)                               | [Modeling and simulating simple conditional situations](#09-10-2020-practical-session-2)                                               |
 | 12-16 oct. | [Random generation of discrete random variables](#15-10-2020-lecture-6)                               | [Generating randomness](#16-10-2020-practical-session-3)                                               |
-| 19-23 oct. | [Random generation of continuous random variables](#22-10-2020-lecture-7)                               | [TBA](#23-10-2020-practical-session-4)                                               |
+| 19-23 oct. | [Random generation of continuous random variables](#22-10-2020-lecture-7)                               | [Generating uniformly over a finite set](#23-10-2020-practical-session-4)                                               |
 | 26-3O oct. | Vacances                                        | Vacances                                                                  |
 | 02-06 nov. | [TBA](#lecture-8)                               | [TBA](#practical-session-5)                                               |
 | 09-13 nov. | [TBA](#lecture-9)                               | [TBA](#practical-session-6)                                               |
