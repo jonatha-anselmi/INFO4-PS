@@ -246,9 +246,30 @@ For a reminder about the "change of variable" theorem, see Section 3.1.2 of the 
 ### Documents
 - Exercise 5 (*Comment faire une bonne pièce avec une fausse?*) of the [Pseudo randomness generation](http://polaris.imag.fr/arnaud.legrand/teaching/2015/RICM4_PS_TD3.pdf).
 - [Uniform finite generation](http://polaris.imag.fr/arnaud.legrand/teaching/2016/RICM4_PS_TD3_uniform.pdf)
-- [Discrete generation](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_discrete.pdf)
-   - [Group 1,2](Rmd/TD4_G1.Rmd) The R code we wrote during this  session.
+  We wrote almost no code because I foremost wanted to show how to
+  think and writ proofs on this. Yet, writing a simple R code to
+  simulate is the easiest way to get the answer to these exercises
+  before engaging into the proof. Here is for example what I wrote for
+  exercise 5:
+  
+  ``` R
+  N = 100000; R = runif(N) ; Y=floor(R*6)+1 ; summary(as.factor(Y))/N
+  ```
+  
+             1      2      3      4      5      6 
+        .16496 .16752 .16701 .16769 .16578 .16704 
+
+  ``` R
+  N = 100000; R = runif(N) ; Y=round(R*5)+1 ; summary(as.factor(Y))/N ; hist(Y)
+  ```
+  
+              1       2       3       4       5       6 
+        0.10107 0.20009 0.19850 0.20088 0.20071 0.09875
+
+- [Discrete
+  generation](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_discrete.pdf)
 ### Assignments
-- Complete all exercises of both sheets
+- Complete all exercises of the first sheet. You may start working on
+  the second one on which we'll work next time.
 
 
