@@ -35,7 +35,7 @@ Benjamin Jourdain.
 | 12-16 oct. | [Random generation of discrete random variables](#15-10-2020-lecture-6)                               | [Generating randomness](#16-10-2020-practical-session-3)                                               |
 | 19-23 oct. | [Random generation of continuous random variables](#22-10-2020-lecture-7)                               | [Generating uniformly over a finite set](#23-10-2020-practical-session-4)                                               |
 | 26-3O oct. | Vacances                                        | Vacances                                                                  |
-| 02-06 nov. | [Q/A - Recap - Exos](#lecture-8)                               | [TBA](#practical-session-5)                                               |
+| 02-06 nov. | [Q/A - Recap - Exos](#lecture-8)                               | [Generating discrete distributions](#06-11-2020-practical-session-5)                                               |
 | 09-13 nov. | [TBA](#lecture-9)                               | [TBA](#practical-session-6)                                               |
 | 16-20 nov. | [TBA](#lecture-10)                              | [TBA](#practical-session-7)                                               |
 | 23-27 nov. | [TBA](#lecture-11)                              | [TBA](#practical-session-8)                                               |
@@ -272,11 +272,15 @@ For a reminder about the "change of variable" theorem, see Section 3.1.2 of the 
 - Complete all exercises of the first sheet. You may start working on
   the second one on which we'll work next time.
 
-
-
 ## [22-10-2020] Lecture 8: Q/A - Recap - Exos
 
 - "Théorème de transfert" -- Theorem 2.3.6 (discrete case) and Theorem 3.3.4 (continuous case)
 - Exercises 4.3.1 and 4.3.5
 
 [Notes taken during the lecture: ](https://hackmd.io/LAXVN2wYSh2OiYtwwLa2tg)
+
+## [06-11-2020] Practical Session 5
+### Documents
+- [Discrete
+  generation](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_discrete.pdf)
+- [Some nice slides with nice drawings](http://polaris.imag.fr/arnaud.legrand/teaching/2018/Cours_PS_RICM4_5.pdf)
