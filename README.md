@@ -284,3 +284,8 @@ For a reminder about the "change of variable" theorem, see Section 3.1.2 of the 
 - [Discrete
   generation](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_discrete.pdf)
 - [Some nice slides with nice drawings](http://polaris.imag.fr/arnaud.legrand/teaching/2018/Cours_PS_RICM4_5.pdf)
+### Assignments
+- Make sure you understood everything we said about questions 1.1 and
+  1.2. Do not hesitate to try to code them in R to make sure you
+  understand how they work and the different trade-offs
+- Prepare questions 1.3 and 1.4.
