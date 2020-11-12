@@ -36,7 +36,8 @@ Benjamin Jourdain.
 | 19-23 oct. | [Random generation of continuous random variables](#22-10-2020-lecture-7)                               | [Generating uniformly over a finite set](#23-10-2020-practical-session-4)                                               |
 | 26-3O oct. | Vacances                                        | Vacances                                                                  |
 | 02-06 nov. | [Q/A - Recap - Exos](#lecture-8)                               | [Generating discrete distributions](#06-11-2020-practical-session-5)                                               |
-| 09-13 nov. | [TBA](#lecture-9)                               | [TBA](#practical-session-6)                                               |
+| 09-13 nov. | [Convergence of sequences
+of random variables](#lecture-9)                               | [TBA](#practical-session-6)                                               |
 | 16-20 nov. | [TBA](#lecture-10)                              | [TBA](#practical-session-7)                                               |
 | 23-27 nov. | [TBA](#lecture-11)                              | [TBA](#practical-session-8)                                               |
 | 30-03 nov. | [TBA](#lecture-12)                              | [TBA](#practical-session-9)                                               |
@@ -289,3 +290,12 @@ For a reminder about the "change of variable" theorem, see Section 3.1.2 of the 
   1.2. Do not hesitate to try to code them in R to make sure you
   understand how they work and the different trade-offs
 - Prepare questions 1.3 and 1.4.
+
+
+## [12-11-2020] Lecture 9: Convergence of sequences of random variables (Chapter 5)
+
+- Sequences of random variables: modes of convergence 
+	+ almost sure, in probability, in L1, in L2 and in law
+- Law of large numbers (strong and weak version)
+- Central limit theorem
+- Introduction to confidence intervals
