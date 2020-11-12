@@ -272,9 +272,9 @@ For a reminder about the "change of variable" theorem, see Section 3.1.2 of the 
 - Complete all exercises of the first sheet. You may start working on
   the second one on which we'll work next time.
 
-## [22-10-2020] Lecture 8
+## [05-11-2020] Lecture 8
 
-Q/A - Recap - Exos
+### Q/A - Recap - Exos
 
 - "Théorème de transfert" -- Theorem 2.3.6 (discrete case) and Theorem 3.3.4 (continuous case)
 - Exercises 4.3.1 and 4.3.5
@@ -295,7 +295,7 @@ Q/A - Recap - Exos
 
 ## [12-11-2020] Lecture 9
 
-Convergence of sequences of random variables (Chapter 5)
+### Convergence of sequences of random variables (Chapter 5)
 
 - Sequences of random variables: modes of convergence 
 	+ almost sure, in probability, in L1, in L2 and in law
