@@ -279,7 +279,7 @@ For a reminder about the "change of variable" theorem, see Section 3.1.2 of the 
 - "Théorème de transfert" -- Theorem 2.3.6 (discrete case) and Theorem 3.3.4 (continuous case)
 - Exercises 4.3.1 and 4.3.5
 
-[Notes taken during the lecture: ](https://hackmd.io/LAXVN2wYSh2OiYtwwLa2tg)
+[Notes taken during the lecture](https://hackmd.io/LAXVN2wYSh2OiYtwwLa2tg)
 
 ## [06-11-2020] Practical Session 5
 ### Documents
