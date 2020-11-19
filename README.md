@@ -292,9 +292,6 @@ For a reminder about the "change of variable" theorem, see Section 3.1.2 of the 
   1.2. Do not hesitate to try to code them in R to make sure you
   understand how they work and the different trade-offs
 - Prepare questions 1.3 and 1.4.
-### Resources
-- [A video detailing how to solve the first question](https://youtu.be/sFur7wYql90)
-- [Some R code for questions 1-4](Rmd/TD4-5_discrete.Rmd).
 ## [12-11-2020] Lecture 9
 
 ### Convergence of sequences of random variables (Chapter 5)
@@ -304,3 +301,10 @@ For a reminder about the "change of variable" theorem, see Section 3.1.2 of the 
 - Law of large numbers (strong and weak version)
 - Central limit theorem
 - Introduction to confidence intervals
+
+## [13-11-2020] Practical Session 6
+Black screen: no lecture. We talked about politics instead. Here some
+resources to look at for next week.
+### Resources
+- [A video detailing how to solve the first question](https://youtu.be/sFur7wYql90)
+- [Some R code for questions 1-4](Rmd/TD4-5_discrete.Rmd).
