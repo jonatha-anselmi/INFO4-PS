@@ -1,0 +1,247 @@
+---
+title: "TD6.Rmd"
+author: "Arnaud Legrand"
+date: "12/11/2020"
+output: html_document
+---
+
+
+## 1.1 Loi générale
+
+Using the default R function, just to check what the generated data should look like.
+```{r}
+N=10000
+val = 1:8
+prob = c(0.1,0.2,0.05,0.05,0.05,0.15,0.35,0.05)
+
+X1 = sample(x = val, size = N, prob = prob, replace = T)
+hist(X1, breaks = c(0,val))
+```
+
+Now, let's use the inverse of the cdf approach:
+```{r}
+N=10000
+val = 1:8
+prob = c(0.1,0.2,0.05,0.05,0.05,0.15,0.35,0.05)
+
+cprob = c(0,cumsum(prob))
+
+gen_inv_cdf = function() {
+  u = runif(1);
+  i = 1; 
+  while(i<length(cprob) & u>cprob[i]) {i=i+1;}
+  return(val[i-1])
+}
+
+X1 = rep.int(0, N)
+for(i in 1:N) {
+  X1[i] = gen_inv_cdf()
+}
+hist(X1, breaks = c(0,val))
+```
+
+Let's implement a reject algorithm.
+```{r}
+N=10000
+val = 1:8
+prob = c(0.1,0.2,0.05,0.05,0.05,0.15,0.35,0.05)
+prob_max = max(prob)
+
+gen_reject = function() {
+  while(T) {
+    x = sample(size = 1, x = val)
+    y = runif(1, max=prob_max)
+    if(y<= prob[x]) {return(x)}
+  }
+}
+
+X1 = rep.int(0, N)
+for(i in 1:N) {
+  X1[i] = gen_reject()
+}
+hist(X1, breaks = c(0,val))
+```
+
+## Binomial law
+
+Using the default R function, just to check what the generated data should look like.
+```{r}
+N=10000
+n = 10
+p = .3
+
+X1 = rbinom(n = N , size = n, prob = p)
+hist(X1, breaks = (-1):n)
+summary(as.factor(X1))/N
+```
+
+Using the inverse of the cdf approach.
+```{r}
+N=10000
+n = 10
+p = .3
+
+val = 0:10
+prob = choose(n = n, k = values) * p^values * (1-p)^(n-val)
+
+cprob = c(0,cumsum(prob))
+
+gen_inv_cdf = function() {
+  u = runif(1);
+  i = 1; 
+  while(i<length(cprob) & u>cprob[i]) {i=i+1;}
+  return(val[i-1])
+}
+
+X1 = rep.int(0, N)
+for(i in 1:N) {
+  X1[i] = gen_inv_cdf()
+}
+hist(X1, breaks=(-1):n)
+summary(as.factor(X1))/N
+```
+
+And now using an ad hoc method:
+```{r}
+N=10000
+n = 10
+p = .3
+
+val = 0:10
+
+gen_binom = function(n,p) {
+  X = sample(size = n, x = c(0,1), prob = c(1-p,p), replace = T)
+  return(sum(X))
+}
+
+X1 = rep.int(0, N)
+for(i in 1:N) {
+  X1[i] = gen_binom(n,p)
+}
+hist(X1, breaks=(-1):n)
+summary(as.factor(X1))/N
+```
+
+## Geometric law
+
+Now, for the geometric law, the main difficulty is the set of possible values is not finite anymore. Remember that \(P[X=k]=(1-p)^{k-1}.p^k\).
+
+Using the default R function, just to check what the generated data should look like.
+```{r}
+N=10000
+p = .3
+
+X1 = rgeom(n=N, prob=p)
+hist(X1)
+summary(as.factor(X1))/N
+```
+
+
+Using the inverse of the cdf approach.
+```{r}
+N=10000
+p = .3
+
+gen_inv_cdf = function() {
+  u = runif(1);
+  i = 1;
+  s = p;
+  while(u>s) {s=s+(1-p)^i*p; i=i+1;}
+  return(i)
+}
+
+X1 = rep.int(0, N)
+for(i in 1:N) {
+  X1[i] = gen_inv_cdf()
+}
+hist(X1)
+summary(as.factor(X1))/N
+```
+Let's use a specific method:
+```{r}
+N=10000
+p = .3
+
+gen_geom_adhoc = function() {
+  i=1;
+  while(runif(1)>p) {i=i+1;}
+  return(i)
+}
+
+X1 = rep.int(0, N)
+for(i in 1:N) {
+  X1[i] = gen_geom_adhoc()
+}
+hist(X1)
+summary(as.factor(X1))/N
+```
+
+To use the reject approach, we need to bound the probabilities. In this particular case, an exponential distribution (, which is easily generated using the inverse of the cdf approach which only requires computing log(runif)) is all we need. The right rate is easily found by noting that \(\int_{n}^{n+1} \lambda.\exp(-
+\lambda.x).dx = [-\exp(-\lambda.x)]_{n}^{n+1}=\exp(-\lambda.n).(1-\exp(-\lambda))= \exp(-\lambda)^n.(1-\exp(-\lambda))\). So by setting $\lambda=-\log(p)$, we're almost there.
+```{r}
+hist(rexp(10000, rate=(-log(p))))
+```
+Actually, all we have to do is to floor the result so there is no need to reject at all.
+
+```{r}
+X1 = ceiling(rexp(10000, rate=(-log(1-p))))
+hist(X1);
+summary(as.factor(X1))/N
+```
+
+## Escalier
+```{r}
+N=10000
+val = 1:10
+prob = val/sum(val)
+
+X1 = sample(x = val, size = N, prob = prob, replace = T)
+hist(X1, breaks = c(0,val))
+```
+
+We could obviously use the inverse of the cdf, or the reject method as we have done earlier. Let's try smarter approaches.
+
+Mmmh, this triangle looks familiar. Remember what happens when rolling two dices ?
+```{r}
+hist(sample(x=1:10, size = N, replace = T)+sample(x=1:10, size = N, replace = T), breaks=0:20)
+```
+So this can easily be transformed as follows:
+```{r}
+X = sample(x=1:10, size = N, replace = T)+sample(x=1:10, size = N, replace = T)-1
+X = ifelse(X<=10,X, NA)
+hist(X, breaks=0:10)
+```
+Or better:
+```{r}
+X = sample(x=1:11, size = N, replace = T)+sample(x=1:11, size = N, replace = T)-1
+X = ifelse(X<=10,X, ifelse(22-X <=10, 22-X,NA))
+hist(X, breaks=0:10)
+```
+
+This really looks like a triangle. The continuous distribution would thus be a perfect triangle. Let's assume I work on \([0,1]\) for simplicity and see whether I manage to generate this. In this case, the pdf would be equal to \(2.x\) and the pdf would thus be \(x^2\), hence the inverse would be \(\sqrt{x}\). Let's check this:
+```{r}
+hist(sqrt(runif(100000)))
+```
+Sweet! So if I scale and ceil this in the right way, I should be fine:
+```{r}
+N=100000
+X = ceiling(sqrt(runif(N))*10);
+hist(X, breaks=0:10); 
+1:10/sum(1:10)
+summary(as.factor(X))/N
+```
+
+Except, it's close but does not match the probabilities we expected... The first value has a too low probability (make a drawing to realize what's wrong). OK, nevermind, let's consider the inverse of the cdf approach one more time but now, since the probability law is very particular, I should be able to take advantage of it!
+
+Indeed \(P(i) = 2/(n(n+1))*i\) and the cdf is thus \(SP(i)=i(i+1)/(n(n+1)\). To invert this function, I should thus try to find \(i\) such that \(SP(i)=u\). If I set \(S=n(n+1)\), this is a 2nd degree polynomial \(i^2+i=uS\), which is easily solved by having \(i=\frac{-1+\sqrt{1+4uS}}{2}\). Let's give it a try:
+```{r}
+N=100000
+n=10
+S=n*(n+1)
+X = ceiling((-1+sqrt(1+runif(N)*4*S))/2);
+hist(X, breaks=0:10); 
+1:10/sum(1:10)
+summary(as.factor(X))/N
+```
+And now, it's perfect! :) As you see, this smells the square root of \(u\) but the adjustment is non trivial.
+
