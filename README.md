@@ -311,4 +311,27 @@ resources to look at for next week.
 
 ## [20-11-2020] Practical Session 7
 - [Continuous generation](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD5.pdf)
-- [A few notes that can act as a correction](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_rejet.png)
+
+### Ressources
+- [The notes I wrote on the board for group 1](pdf/Practical_Session7_G1.pdf)
+- [The notes I wrote on the board for group 2](pdf/Practical_Session7_G2.pdf)
+- Some dummy code snippets, just in case:
+  ```{R}
+  # Generating data following the triangular distribution
+  hist(sqrt(runif(1000000)),breaks=100)
+  plot(sqrt(runif(1000)))
+  # Generating data following the exponential distribution
+  lambda = 10
+  hist(rexp(100000, rate = lambda))
+  hist(-log(runif(10000))/lambda)
+  ```
+- [A few notes (, which I did not use yet) that detail the rejection algorithm ](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_rejet.png)
+
+### To do for the next time
+- Make sure you have completed the exercise sheet on discrete law generation. The code is [here](Rmd/TD4-5_discrete.Rmd) so you can easily play with it to check whether you understood things right. Again, the code is useless if you do not understand the method.
+- Prepare questions if needed and ask them on your discord server. If points are unclear and the questions are general enough, I'll try to prepare a video beforehand to save you some time and make sure you stay focus.
+- Write the R code for the generation of laws of Q1.5(b) and (c) of [Continuous generation](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD5.pdf) using both the inverse of the cdf method and the rejection method.
+
+I'll take some time next time to answer questions you may still add and I'll move on the generation of a normal distribution. Prepare this by:
+- Trying to generate normally distributed numbers using the rejection method when bounding with an exponential distribution (the very last part of Q3). 
+
