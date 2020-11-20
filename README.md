@@ -308,3 +308,7 @@ resources to look at for next week.
 ### Resources
 - [A video detailing how to solve the first question](https://youtu.be/sFur7wYql90)
 - [Some R code for questions 1-4](Rmd/TD4-5_discrete.Rmd).
+
+## [20-11-2020] Practical Session 7
+- [Continuous generation](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD5.pdf)
+- [A few notes that can act as a correction](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_rejet.png)
