@@ -37,7 +37,7 @@ Benjamin Jourdain.
 | 26-3O oct. | Vacances                                        | Vacances                                                                  |
 | 02-06 nov. | [Q/A - Recap - Exos](#05-11-2020-lecture-8)                               | [Generating discrete distributions](#06-11-2020-practical-session-5)                                               |
 | 09-13 nov. | [Convergence of sequences of random variables](#12-11-2020-lecture-9)                               | [TBA](#13-11-2020-practical-session-6)                                               |
-| 16-20 nov. | [TBA](#lecture-10)                              | [TBA](#practical-session-7)                                               |
+| 16-20 nov. | [Gaussian Random Vectors](#19-11-2020-lecture-10)                              | [TBA](#practical-session-7)                                               |
 | 23-27 nov. | [TBA](#lecture-11)                              | [TBA](#practical-session-8)                                               |
 | 30-03 nov. | [TBA](#lecture-12)                              | [TBA](#practical-session-9)                                               |
 | 07-11 dec. | [TBA](#lecture-13)                              | [TBA](#practical-session-10)                                              |
@@ -308,6 +308,14 @@ resources to look at for next week.
 ### Resources
 - [A video detailing how to solve the first question](https://youtu.be/sFur7wYql90)
 - [Some R code for questions 1-4](Rmd/TD4-5_discrete.Rmd).
+
+## [19-11-2020] Lecture 10
+
+Exercise 5.5.4
+
+### Gaussian random vectors (Chapter 6)
+- Key points of the lecture: Definition, Stability, Exercise 6.3.2, Proposition 6.2.1, Corollary 6.2.4.
+
 
 ## [20-11-2020] Practical Session 7
 - [Continuous generation](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD5.pdf)
