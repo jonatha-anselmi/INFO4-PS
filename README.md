@@ -286,7 +286,9 @@ For a reminder about the "change of variable" theorem, see Section 3.1.2 of the 
 - [Discrete
   generation](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_discrete.pdf)
 - [Some nice slides with nice drawings and explanations on the
-  aliasing method](http://polaris.imag.fr/arnaud.legrand/teaching/2018/Cours_PS_RICM4_5.pdf)
+  aliasing
+  method](http://polaris.imag.fr/arnaud.legrand/teaching/2018/Cours_PS_RICM4_5.pdf)
+- [A video recording of the sesssion](https://scalelite.univ-grenoble-alpes.fr/presentation/5547779c938b85752d344f40d03b39c5c9ed937c-1604651989772/video/webcams.webm)
 ### Assignments
 - Make sure you understood everything we said about questions 1.1 and
   1.2. Do not hesitate to try to code them in R to make sure you
