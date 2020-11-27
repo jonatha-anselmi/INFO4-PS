@@ -36,9 +36,9 @@ Benjamin Jourdain.
 | 19-23 oct. | [Random generation of continuous random variables](#22-10-2020-lecture-7)                               | [Generating uniformly over a finite set](#23-10-2020-practical-session-4)                                               |
 | 26-3O oct. | Vacances                                        | Vacances                                                                  |
 | 02-06 nov. | [Q/A - Recap - Exos](#05-11-2020-lecture-8)                               | [Generating discrete distributions](#06-11-2020-practical-session-5)                                               |
-| 09-13 nov. | [Convergence of sequences of random variables](#12-11-2020-lecture-9)                               | [TBA](#13-11-2020-practical-session-6)                                               |
-| 16-20 nov. | [Gaussian Random Vectors](#19-11-2020-lecture-10)                              | [TBA](#practical-session-7)                                               |
-| 23-27 nov. | [TBA](#lecture-11)                              | [TBA](#practical-session-8)                                               |
+| 09-13 nov. | [Convergence of sequences of random variables](#12-11-2020-lecture-9)                               | [Discussion about the evolution the University](#13-11-2020-practical-session-6)                                               |
+| 16-20 nov. | [Gaussian Random Vectors](#19-11-2020-lecture-10)                              | [Methods for generating continuous distributions](#20-11-2020-practical-session-7)                                               |
+| 23-27 nov. | [TBA](#lecture-11)                              | [Normal Distribution](#27-11-2020-practical-session-8)                                               |
 | 30-03 nov. | [TBA](#lecture-12)                              | [TBA](#practical-session-9)                                               |
 | 07-11 dec. | [TBA](#lecture-13)                              | [TBA](#practical-session-10)                                              |
 | 14-18 dec. |                                                 | [TBA](#practical-session-11)                                              |
