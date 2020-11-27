@@ -1,0 +1,53 @@
+---
+title: "Normal distribution"
+author: "Arnaud Legrand"
+date: "27/11/2020"
+output: html_document
+---
+
+```{r}
+hist(runif(10000) + runif(10000) + runif(10000) + runif(10000) + 
+       runif(10000) + runif(10000) + runif(10000) + runif(10000) + runif(10000))
+```
+
+```{r}
+hist(rbeta(n = 10000, shape1 = 10, shape2 = 3) + rbeta(n = 10000, shape1 = 10, shape2 = 3) + rbeta(n = 10000, shape1 = 10, shape2 = 3) + rbeta(n = 10000, shape1 = 10, shape2 = 3) +rbeta(n = 10000, shape1 = 10, shape2 = 3) + rbeta(n = 10000, shape1 = 10, shape2 = 3) + rbeta(n = 10000, shape1 = 10, shape2 = 3), breaks = 20)
+```
+
+```{r}
+hist(rexp(1000) + rexp(1000) + rexp(1000) + rexp(1000)+ rexp(1000) + rexp(1000)+ rexp(1000) + rexp(1000) + rexp(1000) + rexp(1000) + rexp(1000) + rexp(1000)+ rexp(1000) + rexp(1000)+ rexp(1000) + rexp(1000), breaks=20)
+```
+
+```{r}
+hist(rnorm(1000)+rnorm(1000)+rnorm(1000))
+```
+
+
+```{r}
+pnorm(2) - pnorm(-2)
+```
+
+
+
+```{r}
+N = 10000
+X = rnorm(N)
+Y = rnorm(N)
+plot(X,Y)
+```
+
+```{r}
+mygen = function() {
+  return(mean(runif(1)+runif(1)+runif(1)+runif(1)+runif(1)+runif(1)+runif(1)+runif(1)+runif(1)))
+}
+
+
+X = c()
+for(i in 1:100000) {
+  X[i] = mygen()
+}
+hist(X)
+  
+
+```
+

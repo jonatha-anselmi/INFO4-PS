@@ -1,0 +1,32 @@
+---
+title: "Normal Distribution"
+author: "Arnaud Legrand"
+date: "27/11/2020"
+output: html_document
+---
+
+```{r}
+hist(sample(x = c(1:6), size = 10000 , replace = T) + sample(x = c(1:6), size = 10000 , replace = T))
+```
+```{r}
+hist(rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000) + rexp(10000))
+```
+```{r}
+mean(rnorm(100000))
+```
+
+```{r}
+pnorm(3)-pnorm(-3)
+```
+
+```{r}
+hist(rnorm(100000, mean = 10, sd = 2) + rnorm(100000, mean = 1, sd = 5), breaks = 20)
+```
+
+```{r}
+N = 1000
+X = rnorm(N)
+Y = rnorm(N)
+plot(X,Y)
+```
+
