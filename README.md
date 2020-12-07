@@ -353,9 +353,9 @@ algorithms.
 
 ### Ressources
 - [The notes I wrote on the board for group 1](pdf/PS8_G1.pdf) and [the
-  R code](file:Rmd/TD8_G1.Rmd).
+  R code](Rmd/TD8_G1.Rmd).
 - [The notes I wrote on the board for group 2](pdf/PS8_G2.pdf) and [the
-  R code](file:Rmd/TD8_G2.Rmd)
+  R code](Rmd/TD8_G2.Rmd)
 - [A few notes (, which I did not use yet) that detail the rejection algorithm ](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_rejet.png)
 
 ### To do for the next time
@@ -370,14 +370,6 @@ Today's topic was about computing confidence intervals with the Normal distribut
 ### Ressources
 - Here are the [Exercises](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD6.pdf)
 - Here are some [solutions in R](https://rpubs.com/alegrand/10993)
-- [The notes I wrote on the board for group 2](pdf/PS8_G2.pdf) and [the
-  R code](file:Rmd/TD8_G2.Rmd)
-- [A few notes (, which I did not use yet) that detail the rejection algorithm ](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_rejet.png)
+- [The notes I wrote on the board for group 1](pdf/PS9_G1.pdf) and [group 2](pdf/PS9_G2.pdf)
+- [Video recording of the session](https://scalelite.univ-grenoble-alpes.fr/presentation/5547779c938b85752d344f40d03b39c5c9ed937c-1607077272917/video/webcams.webm)
 
-### To do for the next time
-- Implement in R the three methods we have detailed during the
-  session (rejection when generating under the exponential
-  distribution, sum of uniforms from the Central Limit Theorem, Box
-  Müller thanks to the particular shape of the joint law).
-
-https://rpubs.com/alegrand/10993
