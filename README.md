@@ -364,3 +364,20 @@ algorithms.
   distribution, sum of uniforms from the Central Limit Theorem, Box
   Müller thanks to the particular shape of the joint law).
 
+## [04-12-2020] Practical Session 9
+Today's topic was about computing confidence intervals with the Normal distribution.
+
+### Ressources
+- Here are the [Exercises](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD6.pdf)
+- Here are some [solutions in R](https://rpubs.com/alegrand/10993)
+- [The notes I wrote on the board for group 2](pdf/PS8_G2.pdf) and [the
+  R code](file:Rmd/TD8_G2.Rmd)
+- [A few notes (, which I did not use yet) that detail the rejection algorithm ](http://polaris.imag.fr/arnaud.legrand/teaching/2018/TD_PS_RICM4_rejet.png)
+
+### To do for the next time
+- Implement in R the three methods we have detailed during the
+  session (rejection when generating under the exponential
+  distribution, sum of uniforms from the Central Limit Theorem, Box
+  Müller thanks to the particular shape of the joint law).
+
+https://rpubs.com/alegrand/10993
