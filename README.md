@@ -370,6 +370,7 @@ Today's topic was about computing confidence intervals with the Normal distribut
 ### Ressources
 - Here are the [Exercises](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD6.pdf)
 - Here are some [solutions in R](https://rpubs.com/alegrand/10993)
-- [The notes I wrote on the board for group 1](pdf/PS9_G1.pdf) and [group 2](pdf/PS9_G2.pdf)
-- [Video recording of the session](https://scalelite.univ-grenoble-alpes.fr/presentation/5547779c938b85752d344f40d03b39c5c9ed937c-1607077272917/video/webcams.webm)
+- The notes I wrote on the board for [group 1](pdf/PS9_G1.pdf) and [group 2](pdf/PS9_G2.pdf)
+- Video recording of the session: [Group1](https://scalelite.univ-grenoble-alpes.fr/presentation/5547779c938b85752d344f40d03b39c5c9ed937c-1607070873305/video/webcams.webm)
+  [Group2](https://scalelite.univ-grenoble-alpes.fr/presentation/5547779c938b85752d344f40d03b39c5c9ed937c-1607077272917/video/webcams.webm)
 
