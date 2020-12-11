@@ -40,7 +40,7 @@ Benjamin Jourdain.
 | 16-20 nov. | [Gaussian Random Vectors](#19-11-2020-lecture-10)                         | [Methods for generating continuous distributions](#20-11-2020-practical-session-7)       |
 | 23-27 nov. | [Parameter Estimation](#26-11-2020-lecture-11)                            | [Normal Distribution](#27-11-2020-practical-session-8)                                   |
 | 30-03 nov. | [Hypothesis Tests](#03-12-2020-lecture-12)                                | [Confidence interval](#04-12-2020-practical-session-9)                                   |
-| 07-11 dec. |                                                                           | [The chi square law and test](#11-12-2020-practical-session-10)                          |
+| 07-11 dec. |                                                                           | [The χ² law and test](#11-12-2020-practical-session-10)                                  |
 | 14-18 dec. |                                                                           | [Q&A](#practical-session-11)                                                             |
 | 21-25 dec. | Vacances                                                                  | Vacances                                                                                 |
 | 28-01 dec. | Vacances                                                                  | Vacances                                                                                 |
@@ -388,7 +388,7 @@ Today's topic was about computing confidence intervals with the Normal distribut
   [Group2](https://scalelite.univ-grenoble-alpes.fr/presentation/5547779c938b85752d344f40d03b39c5c9ed937c-1607077272917/video/webcams.webm)
 
 ## [11-12-2020] Practical Session 10
-Today's topic was about the $\chi^2$ law and the $\chi^2$ test.
+Today's topic was about the χ² law and the χ² test.
 
 ### Ressources
 - Here are the [Exercises](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD7.pdf)
