@@ -41,10 +41,10 @@ Benjamin Jourdain.
 | 23-27 nov. | [Parameter Estimation](#26-11-2020-lecture-11)                            | [Normal Distribution](#27-11-2020-practical-session-8)                                   |
 | 30-03 nov. | [Hypothesis Tests](#03-12-2020-lecture-12)                                | [Confidence interval](#04-12-2020-practical-session-9)                                   |
 | 07-11 dec. |                                                                           | [The χ² law and test](#11-12-2020-practical-session-10)                                  |
-| 14-18 dec. |                                                                           | [Q&A](#practical-session-11)                                                             |
+| 14-18 dec. |                                                                           | [Q&A](#18-12-2020-practical-session-11)                                                  |
 | 21-25 dec. | Vacances                                                                  | Vacances                                                                                 |
 | 28-01 dec. | Vacances                                                                  | Vacances                                                                                 |
-| 04-09 jan. | Exam?                                                                     |                                                                                          |
+| 04-09 jan. | Exam                                                                      |                                                                                          |
 
 
 ## [10-09-2020] Lecture 1
@@ -391,9 +391,23 @@ Today's topic was about computing confidence intervals with the Normal distribut
 Today's topic was about the χ² law and the χ² test.
 
 ### Ressources
-- Here are the [Exercises](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD7.pdf)
+- [Some slides on the χ² distribution and test](https://github.com/alegrand/SMPE/raw/master/lectures/lecture_chi_square.pdf)
+- Here are the
+  [Exercises](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD7.pdf)
+- [Video revording of the session (group 2)](https://scalelite.univ-grenoble-alpes.fr/playback/presentation/2.0/playback.html?meetingId=5547779c938b85752d344f40d03b39c5c9ed937c-1607675562167)
 ### Ressource to prepare the exam
 - [Old mid-term exams](http://polaris.imag.fr/arnaud.legrand/teaching/2016/RICM4_PS_Annales.pdf)
 - [2017](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_Quick2017.11.07.pdf) and [2017 v2](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_Quick2017.12.04.pdf) mid-term exams
 - [2018 exam](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_PS_Exam18.pdf) and the [solution](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_PS_Exam18_correction.pdf)
 - [2019 exam](http://polaris.imag.fr/arnaud.legrand/teaching/2019/RICM4_PS_exam.pdf)
+
+### DM
+Solve the [2019
+exam](http://polaris.imag.fr/arnaud.legrand/teaching/2019/RICM4_PS_exam.pdf)
+and [send me your answers](mailto:arnaud.legrand@imag.fr) with "[INFO4
+DM-PS]" in the subject before Monday the 28th of December. I'll send a
+solution through discord on the 29th.
+
+## [18-12-2020] Practical Session 11
+### Q&A session
+I'll (try to ;) answer any question you would have on exercises from the poly or from previous exams.
