@@ -25,26 +25,26 @@ Benjamin Jourdain.
    + [Theoretical Computer Science Cheat Sheet](https://www.tug.org/texshowcase/cheat.pdf) :)
    
 
-| Semaine    | Cours (Jeudi, 10h00-11h30)                      | TD (Vendredi, 9h45-13h00)                                                 |
-|:-----------|:------------------------------------------------|:--------------------------------------------------------------------------|
-| 7-11 sep.  | 14h00-15h00 [Introduction au cours](#10-09-2020-lecture-1) | (-> Lundi 14) [Introduction à Rstudio et Rmarkdown](#14-09-2020-practical-session-1) |
-| 14-18 sep. | [Probability basics](#17-09-2020-lecture-2)                |                                                                           |
-| 21-25 sep. | [Chapter 2](#24-09-2020-lecture-3)                               |                                                                           |
-| 28-02 sep. | [Chapter 2](#01-10-2020-lecture-4)                               |                                                                           |
-| 05-09 oct. | [Chapter 3](#08-10-2020-lecture-5)                               | [Modeling and simulating simple conditional situations](#09-10-2020-practical-session-2)                                               |
-| 12-16 oct. | [Random generation of discrete random variables](#15-10-2020-lecture-6)                               | [Generating randomness](#16-10-2020-practical-session-3)                                               |
-| 19-23 oct. | [Random generation of continuous random variables](#22-10-2020-lecture-7)                               | [Generating uniformly over a finite set](#23-10-2020-practical-session-4)                                               |
-| 26-3O oct. | Vacances                                        | Vacances                                                                  |
-| 02-06 nov. | [Q/A - Recap - Exos](#05-11-2020-lecture-8)                               | [Generating discrete distributions](#06-11-2020-practical-session-5)                                               |
-| 09-13 nov. | [Convergence of sequences of random variables](#12-11-2020-lecture-9)                               | [Discussion about the evolution the University](#13-11-2020-practical-session-6)                                               |
-| 16-20 nov. | [Gaussian Random Vectors](#19-11-2020-lecture-10)                              | [Methods for generating continuous distributions](#20-11-2020-practical-session-7)                                               |
-| 23-27 nov. | [Parameter Estimation](#26-11-2020-lecture-11)                              | [Normal Distribution](#27-11-2020-practical-session-8)                                               |
-| 30-03 nov. | [Hypothesis Tests](#03-12-2020-lecture-12)                              | [TBA](#practical-session-9)                                               |
-| 07-11 dec. |                               | [TBA](#practical-session-10)                                              |
-| 14-18 dec. |                                                 | [TBA](#practical-session-11)                                              |
-| 21-25 dec. | Vacances                                        | Vacances                                                                  |
-| 28-01 dec. | Vacances                                        | Vacances                                                                  |
-| 04-09 jan. | Exam?                                           |                                                                           |
+| Semaine    | Cours (Jeudi, 10h00-11h30)                                                | TD (Vendredi, 9h45-13h00)                                                                |
+|:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
+| 7-11 sep.  | 14h00-15h00 [Introduction au cours](#10-09-2020-lecture-1)                | (-> Lundi 14) [Introduction à Rstudio et Rmarkdown](#14-09-2020-practical-session-1)     |
+| 14-18 sep. | [Probability basics](#17-09-2020-lecture-2)                               |                                                                                          |
+| 21-25 sep. | [Chapter 2](#24-09-2020-lecture-3)                                        |                                                                                          |
+| 28-02 sep. | [Chapter 2](#01-10-2020-lecture-4)                                        |                                                                                          |
+| 05-09 oct. | [Chapter 3](#08-10-2020-lecture-5)                                        | [Modeling and simulating simple conditional situations](#09-10-2020-practical-session-2) |
+| 12-16 oct. | [Random generation of discrete random variables](#15-10-2020-lecture-6)   | [Generating randomness](#16-10-2020-practical-session-3)                                 |
+| 19-23 oct. | [Random generation of continuous random variables](#22-10-2020-lecture-7) | [Generating uniformly over a finite set](#23-10-2020-practical-session-4)                |
+| 26-3O oct. | Vacances                                                                  | Vacances                                                                                 |
+| 02-06 nov. | [Q/A - Recap - Exos](#05-11-2020-lecture-8)                               | [Generating discrete distributions](#06-11-2020-practical-session-5)                     |
+| 09-13 nov. | [Convergence of sequences of random variables](#12-11-2020-lecture-9)     | [Discussion about the evolution the University](#13-11-2020-practical-session-6)         |
+| 16-20 nov. | [Gaussian Random Vectors](#19-11-2020-lecture-10)                         | [Methods for generating continuous distributions](#20-11-2020-practical-session-7)       |
+| 23-27 nov. | [Parameter Estimation](#26-11-2020-lecture-11)                            | [Normal Distribution](#27-11-2020-practical-session-8)                                   |
+| 30-03 nov. | [Hypothesis Tests](#03-12-2020-lecture-12)                                | [Confidence interval](#04-12-2020-practical-session-9)                                   |
+| 07-11 dec. |                                                                           | [The chi square law and test](#11-12-2020- practical-session-10)                         |
+| 14-18 dec. |                                                                           | [TBA](#practical-session-11)                                                             |
+| 21-25 dec. | Vacances                                                                  | Vacances                                                                                 |
+| 28-01 dec. | Vacances                                                                  | Vacances                                                                                 |
+| 04-09 jan. | Exam?                                                                     |                                                                                          |
 
 
 ## [10-09-2020] Lecture 1
@@ -386,3 +386,9 @@ Today's topic was about computing confidence intervals with the Normal distribut
 - The notes I wrote on the board for [group 1](pdf/PS9_G1.pdf) and [group 2](pdf/PS9_G2.pdf)
 - Video recording of the session: [Group1](https://scalelite.univ-grenoble-alpes.fr/presentation/5547779c938b85752d344f40d03b39c5c9ed937c-1607070873305/video/webcams.webm)
   [Group2](https://scalelite.univ-grenoble-alpes.fr/presentation/5547779c938b85752d344f40d03b39c5c9ed937c-1607077272917/video/webcams.webm)
+
+## [11-12-2020] Practical Session 10
+Today's topic was about the $\chi^2$ law and the $\chi^2$ test.
+
+### Ressources
+- Here are the [Exercises](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD7.pdf)
