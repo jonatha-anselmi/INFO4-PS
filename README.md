@@ -370,6 +370,13 @@ algorithms.
   distribution, sum of uniforms from the Central Limit Theorem, Box
   Müller thanks to the particular shape of the joint law).
 
+
+## [03-12-2020] Lecture 12
+
+### Hypothesis Testing (Chapter 8)
+- Key points of the lecture: definition of hypothesis test, null/alternative hypotheses, critical region, Chi2 test.
+
+
 ## [04-12-2020] Practical Session 9
 Today's topic was about computing confidence intervals with the Normal distribution.
 
@@ -378,9 +385,3 @@ Today's topic was about computing confidence intervals with the Normal distribut
 - Here are some [solutions in R](https://rpubs.com/alegrand/10993)
 - [The notes I wrote on the board for group 1](pdf/PS9_G1.pdf) and [group 2](pdf/PS9_G2.pdf)
 - [Video recording of the session](https://scalelite.univ-grenoble-alpes.fr/presentation/5547779c938b85752d344f40d03b39c5c9ed937c-1607077272917/video/webcams.webm)
-
-
-## [03-12-2020] Lecture 12
-
-### Hypothesis Testing (Chapter 8)
-- Key points of the lecture: definition of hypothesis test, null/alternative hypotheses, critical region, Chi2 test.
