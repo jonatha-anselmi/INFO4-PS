@@ -38,9 +38,9 @@ Benjamin Jourdain.
 | 02-06 nov. | [Q/A - Recap - Exos](#05-11-2020-lecture-8)                               | [Generating discrete distributions](#06-11-2020-practical-session-5)                                               |
 | 09-13 nov. | [Convergence of sequences of random variables](#12-11-2020-lecture-9)                               | [Discussion about the evolution the University](#13-11-2020-practical-session-6)                                               |
 | 16-20 nov. | [Gaussian Random Vectors](#19-11-2020-lecture-10)                              | [Methods for generating continuous distributions](#20-11-2020-practical-session-7)                                               |
-| 23-27 nov. | [TBA](#lecture-11)                              | [Normal Distribution](#27-11-2020-practical-session-8)                                               |
-| 30-03 nov. | [TBA](#lecture-12)                              | [TBA](#practical-session-9)                                               |
-| 07-11 dec. | [TBA](#lecture-13)                              | [TBA](#practical-session-10)                                              |
+| 23-27 nov. | [Parameter Estimation](#26-11-2020-lecture-11)                              | [Normal Distribution](#27-11-2020-practical-session-8)                                               |
+| 30-03 nov. | [Hypothesis Tests](#03-12-2020-lecture-12)                              | [TBA](#practical-session-9)                                               |
+| 07-11 dec. |                               | [TBA](#practical-session-10)                                              |
 | 14-18 dec. |                                                 | [TBA](#practical-session-11)                                              |
 | 21-25 dec. | Vacances                                        | Vacances                                                                  |
 | 28-01 dec. | Vacances                                        | Vacances                                                                  |
@@ -346,6 +346,12 @@ I'll take some time next time to answer questions you may still add and I'll mov
 - Trying to generate normally distributed numbers using the rejection method when bounding with an exponential distribution (the very last part of Q3). 
 
 
+## [26-11-2020] Lecture 11
+
+### Estimation of Parameters (Chapter 7)
+- Key points of the lecture: parametric model, estimators, bias, maximum likelihood estimator (estimateur de maximum de vraisemblance), confidence interval
+
+
 ## [27-11-2020] Practical Session 8
 Today's topic was about the main properties of the Normal distribution
 and how we could build on them to propose random generation
@@ -364,6 +370,13 @@ algorithms.
   distribution, sum of uniforms from the Central Limit Theorem, Box
   Müller thanks to the particular shape of the joint law).
 
+
+## [03-12-2020] Lecture 12
+
+### Hypothesis Testing (Chapter 8)
+- Key points of the lecture: definition of hypothesis test, null/alternative hypotheses, critical region, Chi2 test.
+
+
 ## [04-12-2020] Practical Session 9
 Today's topic was about computing confidence intervals with the Normal distribution.
 
@@ -373,4 +386,3 @@ Today's topic was about computing confidence intervals with the Normal distribut
 - The notes I wrote on the board for [group 1](pdf/PS9_G1.pdf) and [group 2](pdf/PS9_G2.pdf)
 - Video recording of the session: [Group1](https://scalelite.univ-grenoble-alpes.fr/presentation/5547779c938b85752d344f40d03b39c5c9ed937c-1607070873305/video/webcams.webm)
   [Group2](https://scalelite.univ-grenoble-alpes.fr/presentation/5547779c938b85752d344f40d03b39c5c9ed937c-1607077272917/video/webcams.webm)
-
