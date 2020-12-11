@@ -40,8 +40,8 @@ Benjamin Jourdain.
 | 16-20 nov. | [Gaussian Random Vectors](#19-11-2020-lecture-10)                         | [Methods for generating continuous distributions](#20-11-2020-practical-session-7)       |
 | 23-27 nov. | [Parameter Estimation](#26-11-2020-lecture-11)                            | [Normal Distribution](#27-11-2020-practical-session-8)                                   |
 | 30-03 nov. | [Hypothesis Tests](#03-12-2020-lecture-12)                                | [Confidence interval](#04-12-2020-practical-session-9)                                   |
-| 07-11 dec. |                                                                           | [The chi square law and test](#11-12-2020- practical-session-10)                         |
-| 14-18 dec. |                                                                           | [TBA](#practical-session-11)                                                             |
+| 07-11 dec. |                                                                           | [The chi square law and test](#11-12-2020-practical-session-10)                          |
+| 14-18 dec. |                                                                           | [Q&A](#practical-session-11)                                                             |
 | 21-25 dec. | Vacances                                                                  | Vacances                                                                                 |
 | 28-01 dec. | Vacances                                                                  | Vacances                                                                                 |
 | 04-09 jan. | Exam?                                                                     |                                                                                          |
@@ -393,8 +393,7 @@ Today's topic was about the $\chi^2$ law and the $\chi^2$ test.
 ### Ressources
 - Here are the [Exercises](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD7.pdf)
 ### Ressource to prepare the exam
-- [http://polaris.imag.fr/arnaud.legrand/teaching/2016/RICM4_PS_Annales.pdf](Old
-  mid-term exams)
+- [Old mid-term exams](http://polaris.imag.fr/arnaud.legrand/teaching/2016/RICM4_PS_Annales.pdf)
 - [2017](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_Quick2017.11.07.pdf) and [2017 v2](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_Quick2017.12.04.pdf) mid-term exams
 - [2018 exam](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_PS_Exam18.pdf) and the [solution](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_PS_Exam18_correction.pdf)
 - [2019 exam](http://polaris.imag.fr/arnaud.legrand/teaching/2019/RICM4_PS_exam.pdf)
