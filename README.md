@@ -392,3 +392,9 @@ Today's topic was about the $\chi^2$ law and the $\chi^2$ test.
 
 ### Ressources
 - Here are the [Exercises](http://polaris.imag.fr/arnaud.legrand/teaching/2013/RICM4_TD7.pdf)
+### Ressource to prepare the exam
+- [http://polaris.imag.fr/arnaud.legrand/teaching/2016/RICM4_PS_Annales.pdf](Old
+  mid-term exams)
+- [2017](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_Quick2017.11.07.pdf) and [2017 v2](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_Quick2017.12.04.pdf) mid-term exams
+- [2018 exam](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_PS_Exam18.pdf) and the [solution](http://polaris.imag.fr/arnaud.legrand/teaching/2018/RICM4_PS_Exam18_correction.pdf)
+- [2019 exam](http://polaris.imag.fr/arnaud.legrand/teaching/2019/RICM4_PS_exam.pdf)
