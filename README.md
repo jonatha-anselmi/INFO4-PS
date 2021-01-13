@@ -1,4 +1,4 @@
-# INFO4-PS
+# INFO4-PS: Probabilit&eacute; et Simulation
 
 [Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the
 lectures while [Arnaud Legrand](mailto:arnaud.legrand@imag.fr) is in
