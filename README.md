@@ -25,9 +25,12 @@ Benjamin Jourdain.
    + [Theoretical Computer Science Cheat Sheet](https://www.tug.org/texshowcase/cheat.pdf) :)
    
 
+
+## Program
+
 | Semaine    | Cours                                                | TD                                                                |
 |:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| 6-10 sep.  | 14h00-15h00 [Introduction au cours](#09-09-2021-lecture-1)                | (-> Lundi 14) [Introduction à Rstudio et Rmarkdown](#10-09-2021-practical-session-1)     |
+| 6-10 sep.  | 14h00-15h00 [Introduction au cours](#09-09-2021-lecture-1)                |  [Introduction à Rstudio et Rmarkdown](#10-09-2021-practical-session-1)     |
 
 
 
