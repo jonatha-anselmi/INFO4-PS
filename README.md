@@ -30,7 +30,8 @@ Benjamin Jourdain.
 
 | Semaine    | Cours                                                | TD                                                                |
 |:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| 6-10 sep.  | 14h00-15h00 [Introduction au cours](#09-09-2021-lecture-1)                |  [Introduction à Rstudio et Rmarkdown](#10-09-2021-practical-session-1)     |
+| 6-10 sep.  | [Introduction au cours](#09-09-2021-lecture-1)                |  [Introduction à Rstudio et Rmarkdown](#10-09-2021-practical-session-1) |
+| 13-17 sep.  |                 |   |
 
 
 
