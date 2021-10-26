@@ -6,7 +6,7 @@ This is the website for the course "Probabilit&eacute; et Simulation" held at Po
 lectures and [Louis-Sebastien Rebuffi](mailto:louis-sebastien.rebuffi@univ-grenoble-alpes.fr) will help with practical sessions.
 
 The official schedule with room information is
-[here](http://redirect.univ-grenoble-alpes.fr/ADE_ETUDIANTS_POLYTECH).
+[here](https://ade-sts.grenet.fr/).
 
 We will follow and cover most of the material
 presented in [Probabilités et statistique pour
@@ -128,20 +128,12 @@ practical session.
 
 
 
-## [16-09-2021] Lecture 2
+## [23-09-2021] Lecture 2
 
 - Chapter 1 (finite state space):
    + Solution of the [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem) and of its variant "Same birthday as you"
    + Conditional probability and examples (e.g., Exercise 1.3.10)
    + Independence
-
-
-
-
-
-## [23-09-2021] Lecture 3
-
-- Chapter 2 (countable state space): Probability space, discrete random variables, independence, expected value
 
 ## [23-09-2021] Practical Session 2
 
@@ -151,21 +143,27 @@ l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
 
 
 
-## [30-09-2021] Lecture 4
+
+## [30-09-2021] Lecture 3
+
+- Chapter 2 (countable state space): Probability space, discrete random variables, independence, expected value
+
+
+## [7-10-2021] Lecture 4
 
 - Chapter 2:
    + A reasoned introduction to common probability law (Bernoulli, Binomial, Poisson and Geometric) with their properties and exercices
    + Variance, Theorem 2.3.6 ("Théorème de transfert")
 
-## [07-10-2021] Lecture 5
+## [14-10-2021] Lecture 4
 
 - Chapter 3 (uncountable state space): Continuous random variables, pdf, cdf, common pdfs (uniform, exponential, gaussian)
 
-## [14-10-2021] Lecture 6
+## [21-10-2021] Lecture 5
 
 - Chapter 3 (uncountable state space): Expected value and "Théorème de transfert" again! See Theorem 3.3.4
 
-## [21-10-2021] Lecture 7
+## [28-10-2021] Lecture 6
 
 - Chapter 4: Random generation of continuous random variables
     + By inversion of the cumulative distribution function  
