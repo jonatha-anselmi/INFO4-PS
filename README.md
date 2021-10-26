@@ -30,8 +30,20 @@ Benjamin Jourdain.
 
 | Semaine    | Cours                                                | TD                                                                |
 |:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| 6-10 sep.  | [Introduction au cours](#09-09-2021-lecture-1)                |  [Introduction à Rstudio et Rmarkdown](#10-09-2021-practical-session-1) |
-| 13-17 sep.  |                 |   |
+| 6-10 sep.  | [Introduction au cours](#09-09-2021-lecture-1)                            |  [Introduction à Rstudio et Rmarkdown](#10-09-2021-practical-session-1) |
+| 20-24 sep. | [Probability basics](#23-09-2021-lecture-2)                               |  [Basic Exercises and Rstudio](#17-10-2021-practical-session-1)     |
+| 27-01 sep. | [Common discrete probability laws](#30-09-2021-lecture-3)                                        |                                                         |
+| 04-08 oct. | ["Théorème de transfert"](#07-10-2021-lecture-4)                                        | |
+| 11-15 oct. | [Continuous random variables and common pdfs](#14-10-2021-lecture-5)   |                                 |
+| 18-22 oct. | [Théorème de transfert (continuous case)](#21-10-2021-lecture-6) |               |
+| 25-29 oct. | [Random generation of continuous random variables](#28-10-2021-lecture-6) |               |
+| 01-05 oct. | Vacances                                                                  | Vacances                                                                                 |
+
+Discrete random variables
+
+
+
+
 
 
 
@@ -109,3 +121,38 @@ doing so and depending on what has been installed on your machine,
 Rstudio may complain that it requires upgraded versions of knitr,
 rmarkdown and tinytex... :( Just proceed and you'll be ready for the
 practical session.
+
+
+## [16-09-2021] Lecture 2
+
+- Chapter 1 (finite state space):
+   + Solution of the [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem) and of its variant "Same birthday as you"
+   + Conditional probability and examples (e.g., Exercise 1.3.10)
+   + Independence
+
+## [23-09-2021] Lecture 3
+
+- Chapter 2 (countable state space): Probability space, discrete random variables, independence, expected value  
+
+## [30-09-2021] Lecture 4
+
+- Chapter 2:
+   + A reasoned introduction to common probability law (Bernoulli, Binomial, Poisson and Geometric) with their properties and exercices
+   + Variance, Theorem 2.3.6 ("Théorème de transfert")
+
+## [07-10-2021] Lecture 5
+
+- Chapter 3 (uncountable state space): Continuous random variables, pdf, cdf, common pdfs (uniform, exponential, gaussian)
+
+## [14-10-2021] Lecture 6
+
+- Chapter 3 (uncountable state space): Expected value and "Théorème de transfert" again! See Theorem 3.3.4
+
+## [21-10-2021] Lecture 7
+
+- Chapter 4: Random generation of continuous random variables
+    + By inversion of the cumulative distribution function  
+    + Polar method for generating normal random variables
+    + Rejection sampling
+
+
