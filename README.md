@@ -130,6 +130,18 @@ practical session.
    + Conditional probability and examples (e.g., Exercise 1.3.10)
    + Independence
 
+
+
+
+## [09-10-2020] Practical Session 2
+### Documents
+Implementing with R and playing around a few exercises from Chapter 1 of [Probabilités et statistique pour
+l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
+
+Also, [Mr. and Mrs. Smith, A winner among K](http://rpubs.com/janselmi/TD2)
+
+
+
 ## [23-09-2021] Lecture 3
 
 - Chapter 2 (countable state space): Probability space, discrete random variables, independence, expected value  
