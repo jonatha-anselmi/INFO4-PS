@@ -149,7 +149,7 @@ l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
 - Chapter 2 (countable state space): Probability space, discrete random variables, independence, expected value
 
 
-## [7-10-2021] Lecture 4
+## [07-10-2021] Lecture 4
 
 - Chapter 2:
    + A reasoned introduction to common probability law (Bernoulli, Binomial, Poisson and Geometric) with their properties and exercices
