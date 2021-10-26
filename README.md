@@ -31,7 +31,7 @@ Benjamin Jourdain.
 | Semaine    | Cours                                                | TD                                                                |
 |:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
 | 6-10 sep.  | [Introduction au cours](#09-09-2021-lecture-1)                            |  [Introduction à Rstudio et Rmarkdown](#10-09-2021-practical-session-1) |
-| 20-24 sep. | [Probability basics](#23-09-2021-lecture-2)                               |  [Basic Exercises and Rstudio](#17-10-2021-practical-session-1)     |
+| 20-24 sep. | [Probability basics](#23-09-2021-lecture-2)                               |  [Basic Exercises and Rstudio](#23-09-2021-practical-session-1)     |
 | 27-01 sep. | [Common discrete probability laws](#30-09-2021-lecture-3)                                        |                                                         |
 | 04-08 oct. | ["Théorème de transfert"](#07-10-2021-lecture-4)                                        | |
 | 11-15 oct. | [Continuous random variables and common pdfs](#14-10-2021-lecture-5)   |                                 |
@@ -133,7 +133,7 @@ practical session.
 
 
 
-## [09-10-2020] Practical Session 2
+## [23-09-2021] Practical Session 2
 ### Documents
 Implementing with R and playing around a few exercises from Chapter 1 of [Probabilités et statistique pour
 l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
