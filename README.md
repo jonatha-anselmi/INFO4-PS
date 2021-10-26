@@ -36,7 +36,7 @@ Benjamin Jourdain.
 | 04-08 oct. | ["Théorème de transfert"](#07-10-2021-lecture-4)                                        | |
 | 11-15 oct. | [Continuous random variables and common pdfs](#14-10-2021-lecture-5)   |                                 |
 | 18-22 oct. | [Théorème de transfert (continuous case)](#21-10-2021-lecture-6) |               |
-| 25-29 oct. | [Random generation of continuous random variables](#28-10-2021-lecture-6) |               |
+| 25-29 oct. | [Random generation of continuous random variables](#28-10-2021-lecture-7) |               |
 | 01-05 oct. | Vacances                                                                  | Vacances                                                                                 |
 
 Discrete random variables
@@ -47,7 +47,7 @@ Discrete random variables
 
 
 
-## [10-09-2020] Lecture 1
+## [10-09-2021] Lecture 1
 ### Documents
 
 Course content, objectives and organization.
@@ -138,16 +138,18 @@ practical session.
 
 
 
+
+## [23-09-2021] Lecture 3
+
+- Chapter 2 (countable state space): Probability space, discrete random variables, independence, expected value
+
 ## [23-09-2021] Practical Session 2
-### Documents
+
 Implementing with R and playing around a few exercises from Chapter 1 of [Probabilités et statistique pour
 l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
 
 
 
-## [23-09-2021] Lecture 3
-
-- Chapter 2 (countable state space): Probability space, discrete random variables, independence, expected value  
 
 ## [30-09-2021] Lecture 4
 
