@@ -6,7 +6,7 @@ This is the website for the course "Probabilit&eacute; et Simulation" held at Po
 lectures and [Louis-Sebastien Rebuffi](mailto:louis-sebastien.rebuffi@univ-grenoble-alpes.fr) will help with practical sessions.
 
 The official schedule with room information is
-[here](https://ade-sts.grenet.fr/).
+[here](http://redirect.univ-grenoble-alpes.fr/ADE_ETUDIANTS_POLYTECH).
 
 We will follow and cover most of the material
 presented in [Probabilités et statistique pour
@@ -155,15 +155,15 @@ l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
    + A reasoned introduction to common probability law (Bernoulli, Binomial, Poisson and Geometric) with their properties and exercices
    + Variance, Theorem 2.3.6 ("Théorème de transfert")
 
-## [14-10-2021] Lecture 4
+## [14-10-2021] Lecture 5
 
 - Chapter 3 (uncountable state space): Continuous random variables, pdf, cdf, common pdfs (uniform, exponential, gaussian)
 
-## [21-10-2021] Lecture 5
+## [21-10-2021] Lecture 6
 
 - Chapter 3 (uncountable state space): Expected value and "Théorème de transfert" again! See Theorem 3.3.4
 
-## [28-10-2021] Lecture 6
+## [28-10-2021] Lecture 7
 
 - Chapter 4: Random generation of continuous random variables
     + By inversion of the cumulative distribution function  
