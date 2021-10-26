@@ -30,7 +30,7 @@ Benjamin Jourdain.
 
 | Semaine    | Cours                                                | TD                                                                |
 |:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| 6-10 sep.  | [Introduction au cours](#09-09-2021-lecture-1)                            |  [Introduction à Rstudio et Rmarkdown](#10-09-2021-practical-session-1) |
+| 6-10 sep.  | [Introduction au cours](#09-09-2021-lecture-1)                            |  [Basic Exercises and Rstudio](#10-09-2021-practical-session-1) |
 | 20-24 sep. | [Probability basics](#23-09-2021-lecture-2)                               |  [Basic Exercises and Rstudio](#23-09-2021-practical-session-2)     |
 | 27-01 sep. | [Common discrete probability laws](#30-09-2021-lecture-3)                                        |                                                         |
 | 04-08 oct. | ["Théorème de transfert"](#07-10-2021-lecture-4)                                        | |
@@ -122,6 +122,11 @@ Rstudio may complain that it requires upgraded versions of knitr,
 rmarkdown and tinytex... :( Just proceed and you'll be ready for the
 practical session.
 
+## [11-09-2021] Practical Session 1
+
+[Mr. and Mrs. Smith, A winner among K](http://rpubs.com/janselmi/TD2)
+
+
 
 ## [16-09-2021] Lecture 2
 
@@ -137,8 +142,6 @@ practical session.
 ### Documents
 Implementing with R and playing around a few exercises from Chapter 1 of [Probabilités et statistique pour
 l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
-
-Also, [Mr. and Mrs. Smith, A winner among K](http://rpubs.com/janselmi/TD2)
 
 
 
