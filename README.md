@@ -36,11 +36,15 @@ Benjamin Jourdain.
 | 04-08 oct. | ["Théorème de transfert"](#07-10-2021-lecture-4)                                        | |
 | 11-15 oct. | [Continuous random variables and common pdfs](#14-10-2021-lecture-5)   |                                 |
 | 18-22 oct. | [Théorème de transfert (continuous case)](#21-10-2021-lecture-6) |               |
-| 25-29 oct. | [Random generation of continuous random variables](#28-10-2021-lecture-7) |               |
-| 01-05 oct. | Vacances                                                                  | Vacances                                                                                 |
+| 25-29 oct. | [Random generation of continuous and discrete random variables](#28-10-2021-lecture-7) |               |
+| 01-05 nov. | Vacances                                                                  | Vacances                                                                                 |
 
-Discrete random variables
-
+| 15-19 nov. | [Rejection Sampling](#18-11-2021-lecture-8)                               |  [Rejection Sampling in R](#18-11-2021-practical-session-8)     |
+| 22-26 nov. | [Modes of convergence of sequences of random variables](#25-11-2021-lecture-9)                               |  [Discrete generation in R](#25-11-2021-practical-session-9)     |
+| 29-03 nov. | [Law of Large Numbers / Central Limit Theorem](#02-12-2021-lecture-10)                               |  [LLN and CLT in R](#02-12-2021-practical-session-10)     |
+| 06-10 dec. | [Confidence Intervals](#09-12-2021-lecture-11)                               |  [LLN and CLT in R](#09-12-2021-practical-session-11)     |
+| 13-17 dec. | Pas de cours                               |   Correction of past exams     |
+| 03-07 jan. | Pas de cours                               |   Q/A     |
 
 
 
@@ -168,6 +172,6 @@ l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
 - Chapter 4: Random generation of continuous random variables
     + By inversion of the cumulative distribution function  
     + Polar method for generating normal random variables
-    + Rejection sampling
+    + Rejection sampling (intro)
 
 
