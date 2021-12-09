@@ -173,4 +173,39 @@ l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
     + Polar method for generating normal random variables
     + Rejection sampling (intro)
 
+## [18-11-2021] Lecture 8
+
+- Chapter 4: More on the rejection sampling method (Section 4.2.4).
+
+
+## [25-11-2021] Lecture 9
+
+- Chapter 5: Modes of convergence of sequences of random variables. In particular:
+	+ Definition 5.1.1 (almost sure convergence and convergence in Lp)
+	+ Section 5.3.2 (Convergence in law) 
+
+## [25-11-2021] Practical Session 9
+
+Simulation of discrete random variables in R; 
+[Exercises](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/TD_PS_RICM4_discrete.pdf)
+[Code written in class](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/Rmd/TD4-5_discrete.Rmd)
+
+
+## [02-12-2021] Lecture 10
+
+- Chapter 5:
+	+ Strong and Weak Laws of Large Numbers
+	+ Central Limit Theorem
+
+
+
+## [09-12-2021] Lecture 11
+
+- Chapter 5:
+	+ Applications of the Strong Law of Large Numbers and of the Central Limit Theorem
+	+ Confidence Intervals (Section 5.4.2)
+
+## [09-12-2021]  Practical Session 11
+
+Exercises based on the Strong and Weak Laws of Large Numbers: Exercises 5.5.3 and 5.5.4
 
