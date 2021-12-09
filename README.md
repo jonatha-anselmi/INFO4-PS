@@ -187,8 +187,8 @@ l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
 ## [25-11-2021] Practical Session 9
 
 Simulation of discrete random variables in R; 
-[Exercises](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/TD_PS_RICM4_discrete.pdf)
-[Code written in class](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/Rmd/TD4-5_discrete.Rmd)
+[[Exercises](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/TD_PS_RICM4_discrete.pdf)] 
+[[Code written in class](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/Rmd/TD4-5_discrete.Rmd)]
 
 
 ## [02-12-2021] Lecture 10
