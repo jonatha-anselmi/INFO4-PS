@@ -42,7 +42,7 @@ Benjamin Jourdain.
 | 22-26 nov. | [Modes of convergence of sequences of random variables](#25-11-2021-lecture-9)                               |  [Discrete generation in R](#25-11-2021-practical-session-9)     |
 | 29-03 nov. | [Law of Large Numbers / Central Limit Theorem](#02-12-2021-lecture-10)                               |  [LLN and CLT in R](#02-12-2021-practical-session-10)     |
 | 06-10 dec. | [Confidence Intervals](#09-12-2021-lecture-11)                               |  [Exercises on CIs](#09-12-2021-practical-session-11)     |
-| 13-17 dec. | Pas de cours                               |   Correction of past exams     |
+| 13-17 dec. | Pas de cours                               |   [Correction of past exams](#16-12-2021-practical-session-12)     |
 | 03-07 jan. | Pas de cours                               |   Q/A     |
 
 
@@ -209,3 +209,7 @@ Simulation of discrete random variables in R;
 
 Exercises based on the Strong and Weak Laws of Large Numbers: Exercises 5.5.3 and 5.5.4
 
+
+## [16-12-2021]  Practical Session 12
+
+Corrigé [[examen 04/01/2021](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/PS-examen-21-01-05.pdf)]
