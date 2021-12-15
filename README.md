@@ -198,18 +198,17 @@ Simulation of discrete random variables in R;
 	+ Central Limit Theorem
 
 
-
 ## [09-12-2021] Lecture 11
 
 - Chapter 5:
 	+ Applications of the Strong Law of Large Numbers and of the Central Limit Theorem
 	+ Confidence Intervals (Section 5.4.2)
 
-## [09-12-2021]  Practical Session 11
+## [09-12-2021] Practical Session 11
 
 Exercises based on the Strong and Weak Laws of Large Numbers: Exercises 5.5.3 and 5.5.4
 
 
-## [16-12-2021]  Practical Session 12
+## [16-12-2021] Practical Session 12
 
 Corrigé [[examen 04/01/2021](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/PS-examen-21-01-05.pdf)]
