@@ -211,4 +211,5 @@ Exercises based on the Strong and Weak Laws of Large Numbers: Exercises 5.5.3 an
 
 ## [16-12-2021] Practical Session 12
 
-Corrigé [[examen 04/01/2021](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/PS-examen-21-01-05.pdf)]
+Exam 2020-2021 : [[examen 04/01/2021](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/PS-examen-21-01-05.pdf)]
+Corrigé Exo 3 et commentaires exo 4 [Elements de correction Exam 2020-21.pdf](https://github.com/jonatha-anselmi/INFO4-PS/files/7774115/Elements.de.correction.Exam.2020-21.pdf)
