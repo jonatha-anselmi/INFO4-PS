@@ -29,8 +29,8 @@ Benjamin Jourdain.
 
 | Semaine    | Cours                                                | TD                                                                |
 |:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| 5-09 sep.  | [Introduction au cours](#08-09-2022-lecture-1)                            |  [Basic Exercises and Rstudio](#09-09-2022-practical-session-1) |
-| 19-23 sep. | [Probability basics](#22-09-2022-lecture-2)                               |  [Basic Exercises and Rstudio](#22-09-2022-practical-session-2)     |
+| 5-09 sep.  | [Introduction au cours](#08-09-2022-lecture-1)                            |  [Basic Exercises](#09-09-2022-practical-session-1) |
+| 19-23 sep. | [Probability basics](#22-09-2022-lecture-2)                               |  [Basic Exercises](#22-09-2022-practical-session-2)     |
 | 26-02 sep. | [Common discrete probability laws](#29-09-2022-lecture-3)                                        |                                                         |
 | 03-07 oct. | ["Théorème de transfert"](#06-10-2022-lecture-4)                                        | |
 | 10-14 oct. | [Continuous random variables and common pdfs](#13-10-2022-lecture-5)   |                                 |
