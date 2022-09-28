@@ -1,12 +1,11 @@
 # INFO4-PS: Probabilit&eacute; et Simulation
 
-This is the website for the course "Probabilit&eacute; et Simulation" held at PolyTech INFO4, 2021-2022.
+This is the website for the course "Probabilit&eacute; et Simulation" held at PolyTech INFO4, 2022-2023.
 
-[Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the
-lectures and [Louis-Sebastien Rebuffi](mailto:louis-sebastien.rebuffi@univ-grenoble-alpes.fr) will help with practical sessions.
+[Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the lectures and [Victor Boone](mailto:victor.boone@univ-grenoble-alpes.fr) will help with practical sessions (TD).
 
 The official schedule with room information is
-[here](http://redirect.univ-grenoble-alpes.fr/ADE_ETUDIANTS_POLYTECH).
+[here](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp).
 
 We will follow and cover most of the material
 presented in [Probabilités et statistique pour
@@ -30,27 +29,27 @@ Benjamin Jourdain.
 
 | Semaine    | Cours                                                | TD                                                                |
 |:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| 6-10 sep.  | [Introduction au cours](#09-09-2021-lecture-1)                            |  [Basic Exercises and Rstudio](#10-09-2021-practical-session-1) |
-| 20-24 sep. | [Probability basics](#23-09-2021-lecture-2)                               |  [Basic Exercises and Rstudio](#23-09-2021-practical-session-2)     |
-| 27-01 sep. | [Common discrete probability laws](#30-09-2021-lecture-3)                                        |                                                         |
-| 04-08 oct. | ["Théorème de transfert"](#07-10-2021-lecture-4)                                        | |
-| 11-15 oct. | [Continuous random variables and common pdfs](#14-10-2021-lecture-5)   |                                 |
-| 18-22 oct. | [Théorème de transfert (continuous case)](#21-10-2021-lecture-6) |               |
-| 25-29 oct. | [Random generation of continuous and discrete random variables](#28-10-2021-lecture-7) |               |
-| 01-05 nov. | Vacances                                                                  | Vacances                 |
-| 15-19 nov. | [Rejection Sampling](#18-11-2021-lecture-8)                               |  [Rejection Sampling in R](#18-11-2021-practical-session-8)     |
-| 22-26 nov. | [Modes of convergence of sequences of random variables](#25-11-2021-lecture-9)                               |  [Discrete generation in R](#25-11-2021-practical-session-9)     |
-| 29-03 nov. | [Law of Large Numbers / Central Limit Theorem](#02-12-2021-lecture-10)                               |  [LLN and CLT in R](#02-12-2021-practical-session-10)     |
-| 06-10 dec. | [Confidence Intervals](#09-12-2021-lecture-11)                               |  [Exercises on CIs](#09-12-2021-practical-session-11)     |
-| 13-17 dec. | Pas de cours                               |   [Correction of past exams](#16-12-2021-practical-session-12)     |
-| 03-07 jan. | Pas de cours                               |   Q/A     |
+| 5-09 sep.  | [Introduction au cours](#08-09-2022-lecture-1)                            |  [Basic Exercises and Rstudio](#09-09-2022-practical-session-1) |
+| 19-23 sep. | [Probability basics](#22-09-2022-lecture-2)                               |  [Basic Exercises and Rstudio](#22-09-2022-practical-session-2)     |
+| 26-02 sep. | [Common discrete probability laws](#29-09-2022-lecture-3)                                        |                                                         |
+| 03-07 oct. | ["Théorème de transfert"](#06-10-2022-lecture-4)                                        | |
+| 10-14 oct. | [Continuous random variables and common pdfs](#13-10-2022-lecture-5)   |                                 |
+| 17-21 oct. | [Théorème de transfert (continuous case)](#20-10-2022-lecture-6) |               |
+| 24-28 oct. | [Random generation of continuous and discrete random variables](#27-10-2022-lecture-7) |               |
+| 01-04 nov. | Vacances                                                                  | Vacances                 |
+| 14-18 nov. | [Rejection Sampling](#17-11-2021-lecture-8)                               |  [Rejection Sampling in R](#17-11-2022-practical-session-8)     |
+| 21-25 nov. | [Modes of convergence of sequences of random variables](#24-11-2021-lecture-9)                               |  [Discrete generation in R](#25-11-2021-practical-session-9)     |
+| 28-02 nov. | [Law of Large Numbers / Central Limit Theorem](#01-12-2021-lecture-10)                               |  [LLN and CLT in R](#01-12-2022-practical-session-10)     |
+| 05-09 dec. | [Confidence Intervals](#08-12-2022-lecture-11)                               |  [Exercises on CIs](#08-12-2022-practical-session-11)     |
+| 12-16 dec. | Pas de cours                               |   [Correction of past exams](#15-12-2022-practical-session-12)     |
+| 02-06 jan. | Pas de cours                               |   Q/A     |
 
 
 
 
 
 
-## [10-09-2021] Lecture 1
+## [15-09-2022] Lecture 1
 ### Documents
 
 Course content, objectives and organization.
@@ -125,20 +124,20 @@ Rstudio may complain that it requires upgraded versions of knitr,
 rmarkdown and tinytex... :( Just proceed and you'll be ready for the
 practical session.
 
-## [11-09-2021] Practical Session 1
+## [15-09-2022] Practical Session 1
 
 [Mr. and Mrs. Smith, A winner among K](http://rpubs.com/janselmi/TD2)
 
 
 
-## [23-09-2021] Lecture 2
+## [22-09-2022] Lecture 2
 
 - Chapter 1 (finite state space):
    + Solution of the [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem) and of its variant "Same birthday as you"
    + Conditional probability and examples (e.g., Exercise 1.3.10)
    + Independence
 
-## [23-09-2021] Practical Session 2
+## [22-09-2021] Practical Session 2
 
 Implementing with R and playing around a few exercises from Chapter 1 of [Probabilités et statistique pour
 l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
@@ -147,69 +146,69 @@ l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
 
 
 
-## [30-09-2021] Lecture 3
+## [29-09-2022] Lecture 3
 
 - Chapter 2 (countable state space): Probability space, discrete random variables, independence, expected value
 
 
-## [07-10-2021] Lecture 4
+## [06-10-2022] Lecture 4
 
 - Chapter 2:
    + A reasoned introduction to common probability law (Bernoulli, Binomial, Poisson and Geometric) with their properties and exercices
    + Variance, Theorem 2.3.6 ("Théorème de transfert")
 
-## [14-10-2021] Lecture 5
+## [13-10-2022] Lecture 5
 
 - Chapter 3 (uncountable state space): Continuous random variables, pdf, cdf, common pdfs (uniform, exponential, gaussian)
 
-## [21-10-2021] Lecture 6
+## [20-10-2022] Lecture 6
 
 - Chapter 3 (uncountable state space): Expected value and "Théorème de transfert" again! See Theorem 3.3.4
 
-## [28-10-2021] Lecture 7
+## [27-10-2022] Lecture 7
 
 - Chapter 4: Random generation of continuous random variables
     + By inversion of the cumulative distribution function  
     + Polar method for generating normal random variables
     + Rejection sampling (intro)
 
-## [18-11-2021] Lecture 8
+## [17-11-2022] Lecture 8
 
 - Chapter 4: More on the rejection sampling method (Section 4.2.4).
 
 
-## [25-11-2021] Lecture 9
+## [24-11-2022] Lecture 9
 
 - Chapter 5: Modes of convergence of sequences of random variables. In particular:
 	+ Definition 5.1.1 (almost sure convergence and convergence in Lp)
 	+ Section 5.3.2 (Convergence in law) 
 
-## [25-11-2021] Practical Session 9
+## [24-11-2022] Practical Session 9
 
 Simulation of discrete random variables in R; 
 [[Exercises](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/TD_PS_RICM4_discrete.pdf)] 
 [[Code written in class](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/Rmd/TD4-5_discrete.Rmd)]
 
 
-## [02-12-2021] Lecture 10
+## [01-12-2022] Lecture 10
 
 - Chapter 5:
 	+ Strong and Weak Laws of Large Numbers
 	+ Central Limit Theorem
 
 
-## [09-12-2021] Lecture 11
+## [08-12-2022] Lecture 11
 
 - Chapter 5:
 	+ Applications of the Strong Law of Large Numbers and of the Central Limit Theorem
 	+ Confidence Intervals (Section 5.4.2)
 
-## [09-12-2021] Practical Session 11
+## [08-12-2021] Practical Session 11
 
 Exercises based on the Strong and Weak Laws of Large Numbers: Exercises 5.5.3 and 5.5.4
 
 
-## [16-12-2021] Practical Session 12
+## [15-12-2022] Practical Session 12
 
 Exam 2020-2021 : [[examen 04/01/2021](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/PS-examen-21-01-05.pdf)]
 Corrigé Exo 3 et commentaires exo 4 [Elements de correction Exam 2020-21.pdf](https://github.com/jonatha-anselmi/INFO4-PS/files/7774115/Elements.de.correction.Exam.2020-21.pdf)
