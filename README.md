@@ -49,17 +49,8 @@ Benjamin Jourdain.
 
 
 
-## [15-09-2022] Lecture 1
-### Documents
 
-Course content, objectives and organization.
-
-- Started Chapter 1:
-   + Definition of probability over a finite state space <img src="https://render.githubusercontent.com/render/math?math=\Omega">
-   + Identification/Construction of <img src="https://render.githubusercontent.com/render/math?math=\Omega"> for some examples (eg, the [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem))
-
-
-### Assignments: Install R and Rstudio
+## Install R and Rstudio
 
 If you're running a debian or an ubuntu,
 simply follow the following steps (otherwise, e.g., MacOS X or
@@ -124,91 +115,12 @@ Rstudio may complain that it requires upgraded versions of knitr,
 rmarkdown and tinytex... :( Just proceed and you'll be ready for the
 practical session.
 
-## [15-09-2022] Practical Session 1
+## Links to exercises done in class
 
 [Mr. and Mrs. Smith, A winner among K](http://rpubs.com/janselmi/TD2)
 
-
-
-## [22-09-2022] Lecture 2
-
-- Chapter 1 (finite state space):
-   + Solution of the [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem) and of its variant "Same birthday as you"
-   + Conditional probability and examples (e.g., Exercise 1.3.10)
-   + Independence
-
-## [22-09-2021] Practical Session 2
-
-Implementing with R and playing around a few exercises from Chapter 1 of [Probabilités et statistique pour
-l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf).
-
-
-
-
-
-## [29-09-2022] Lecture 3
-
-- Chapter 2 (countable state space): Probability space, discrete random variables, independence, expected value
-
-
-## [06-10-2022] Lecture 4
-
-- Chapter 2:
-   + A reasoned introduction to common probability law (Bernoulli, Binomial, Poisson and Geometric) with their properties and exercices
-   + Variance, Theorem 2.3.6 ("Théorème de transfert")
-
-## [13-10-2022] Lecture 5
-
-- Chapter 3 (uncountable state space): Continuous random variables, pdf, cdf, common pdfs (uniform, exponential, gaussian)
-
-## [20-10-2022] Lecture 6
-
-- Chapter 3 (uncountable state space): Expected value and "Théorème de transfert" again! See Theorem 3.3.4
-
-## [27-10-2022] Lecture 7
-
-- Chapter 4: Random generation of continuous random variables
-    + By inversion of the cumulative distribution function  
-    + Polar method for generating normal random variables
-    + Rejection sampling (intro)
-
-## [17-11-2022] Lecture 8
-
-- Chapter 4: More on the rejection sampling method (Section 4.2.4).
-
-
-## [24-11-2022] Lecture 9
-
-- Chapter 5: Modes of convergence of sequences of random variables. In particular:
-	+ Definition 5.1.1 (almost sure convergence and convergence in Lp)
-	+ Section 5.3.2 (Convergence in law) 
-
-## [24-11-2022] Practical Session 9
-
-Simulation of discrete random variables in R; 
-[[Exercises](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/TD_PS_RICM4_discrete.pdf)] 
-[[Code written in class](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/Rmd/TD4-5_discrete.Rmd)]
-
-
-## [01-12-2022] Lecture 10
-
-- Chapter 5:
-	+ Strong and Weak Laws of Large Numbers
-	+ Central Limit Theorem
-
-
-## [08-12-2022] Lecture 11
-
-- Chapter 5:
-	+ Applications of the Strong Law of Large Numbers and of the Central Limit Theorem
-	+ Confidence Intervals (Section 5.4.2)
-
-## [08-12-2021] Practical Session 11
-
-Exercises based on the Strong and Weak Laws of Large Numbers: Exercises 5.5.3 and 5.5.4
-
-
-## [15-12-2022] Practical Session 12
+[[Ex1](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/TD_PS_RICM4_discrete.pdf)] 
+[[Code](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/Rmd/TD4-5_discrete.Rmd)]
 
 Exam 2020-2021 : [[examen 04/01/2021](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/PS-examen-21-01-05.pdf)]
 Corrigé Exo 3 et commentaires exo 4 [Elements de correction Exam 2020-21.pdf](https://github.com/jonatha-anselmi/INFO4-PS/files/7774115/Elements.de.correction.Exam.2020-21.pdf)
