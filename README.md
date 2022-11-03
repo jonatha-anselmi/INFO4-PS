@@ -7,10 +7,10 @@ This is the website for the course "Probabilit&eacute; et Simulation" held at Po
 The official schedule with room information is
 [here](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp).
 
-We will follow and cover most of the material
+**We will follow and cover most of the material
 presented in [Probabilités et statistique pour
 l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf), by
-Benjamin Jourdain.
+Benjamin Jourdain.**
 
 - Some additional references for the interested student (deeper and longer explanations on most topics):
    + [Cours de Jean Bérard](http://math.univ-lyon1.fr/~jberard/cours-www.pdf)
