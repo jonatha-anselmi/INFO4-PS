@@ -29,7 +29,7 @@ Benjamin Jourdain.
 
 | Semaine    | Cours                                                | TD                                                                |
 |:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| 5-09 sep.  | [Introduction au cours](#08-09-2022-lecture-1)                            |  [Basic Exercises](#09-09-2022-practical-session-1) |
+| 5-09 sep.  | [Introduction]                            |  [Basic Exercises](#09-09-2022-practical-session-1) |
 | 19-23 sep. | [Probability basics](#22-09-2022-lecture-2)                               |  [Basic Exercises](#22-09-2022-practical-session-2)     |
 | 26-02 sep. | [Common discrete probability laws](#29-09-2022-lecture-3)                                        |                                                         |
 | 03-07 oct. | ["Théorème de transfert"](#06-10-2022-lecture-4)                                        | |
@@ -114,13 +114,3 @@ doing so and depending on what has been installed on your machine,
 Rstudio may complain that it requires upgraded versions of knitr,
 rmarkdown and tinytex... :( Just proceed and you'll be ready for the
 practical session.
-
-## Links to exercises done in class
-
-[Mr. and Mrs. Smith, A winner among K](http://rpubs.com/janselmi/TD2)
-
-[[Ex1](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/TD_PS_RICM4_discrete.pdf)] 
-[[Code](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/Rmd/TD4-5_discrete.Rmd)]
-
-Exam 2020-2021 : [[examen 04/01/2021](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/PS-examen-21-01-05.pdf)]
-Corrigé Exo 3 et commentaires exo 4 [Elements de correction Exam 2020-21.pdf](https://github.com/jonatha-anselmi/INFO4-PS/files/7774115/Elements.de.correction.Exam.2020-21.pdf)
