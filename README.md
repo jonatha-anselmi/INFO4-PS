@@ -26,8 +26,8 @@ Benjamin Jourdain.
 
 | Semaine    | Cours                                                | TD                                                                |
 |:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| 5-09 sep.  | Introduction  (Ch.1)                          |  Basic Exercises |
-| 19-23 sep. | Probability basics  (Ch.1)                             |  Basic Exercises     |
+| 5-09 sep.  | Introduction  (Ch.1)                          |   |
+| 19-23 sep. | Probability basics  (Ch.1)                             |     |
 | 26-02 sep. | Common discrete probability laws (Ch.2)                 |                      |
 | 03-07 oct. | Expectation and "Théorème de transfert" (Ch.2)                                       | |
 | 10-14 oct. | Continuous random variables and common pdfs I (Ch.3)  |                                 |
