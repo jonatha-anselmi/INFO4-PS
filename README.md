@@ -14,34 +14,31 @@ Benjamin Jourdain.
 
 - Some additional references for the interested student (deeper and longer explanations on most topics):
    + [Cours de Jean Bérard](http://math.univ-lyon1.fr/~jberard/cours-www.pdf)
-   + Méthodes de simulation de variables continues: [Non-uniform
-     Random Variate Generation](http://www.eirene.de/Devroye.pdf) by
+   + Méthodes de simulation de variables continues: [Non-uniform Random Variate Generation](http://www.eirene.de/Devroye.pdf) by
      Luc Devroye
-   + [Initiation aux
-     probabilités](https://books.google.fr/books?id=6TjJW8tpQLwC&redir_esc=y&hl=fr)
+   + [Initiation aux probabilités](https://books.google.fr/books?id=6TjJW8tpQLwC&redir_esc=y&hl=fr)
      by Sheldon M. Ross.
    + Initiation aux Probabilités, by P. Brémaud (un ouvrage de référence, très très complet)
    + [Theoretical Computer Science Cheat Sheet](https://www.tug.org/texshowcase/cheat.pdf) :)
-   
 
 
 ## Program
 
 | Semaine    | Cours                                                | TD                                                                |
 |:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| 5-09 sep.  | Introduction                            |  Basic Exercises |
-| 19-23 sep. | Probability basics                               |  Basic Exercises     |
-| 26-02 sep. | Common discrete probability laws                 |                      |
-| 03-07 oct. | "Théorème de transfert"                                        | |
-| 10-14 oct. | Continuous random variables and common pdfs   |                                 |
-| 17-21 oct. | Théorème de transfert (continuous case) |               |
-| 24-28 oct. |  |               |
+| 5-09 sep.  | Introduction  (Ch.1)                          |  Basic Exercises |
+| 19-23 sep. | Probability basics  (Ch.1)                             |  Basic Exercises     |
+| 26-02 sep. | Common discrete probability laws (Ch.2)                 |                      |
+| 03-07 oct. | Expectation and "Théorème de transfert" (Ch.2)                                       | |
+| 10-14 oct. | Continuous random variables and common pdfs I (Ch.3)  |                                 |
+| 17-21 oct. | Continuous random variables and common pdfs II (Ch.3)|               |
+| 24-28 oct. | Expectation and "Théorème de transfert" (continuous case) (Ch.3)|               |
 | 01-04 nov. | Vacances                                                                  | Vacances                 |
 | 14-18 nov. | Control continu                               |       |
-| 21-25 nov. | Random generation of continuous and discrete random variables |  Discrete generation in R     |
-| 28-02 nov. | Rejection Sampling      |    Rejection Sampling in R   |
-| 05-09 dec. | Modes of convergence of sequences of random variables                              |      |
-| 12-16 dec. | Law of Large Numbers / Central Limit Theorem                                |  LLN and CLT in R      |
+| 21-25 nov. | Random generation of continuous and discrete random variables (Ch.4) |  Discrete generation in R     |
+| 28-02 nov. | Rejection Sampling  (Ch.4)     |    Rejection Sampling in R   |
+| 05-09 dec. | Modes of convergence of sequences of random variables  (Ch.5)                             |      |
+| 12-16 dec. | Law of Large Numbers / Central Limit Theorem  (Ch.5)                               |  LLN and CLT in R      |
 | 02-06 dec. | Pas de cours                               |   Correction of past exams     |
 
 
