@@ -29,23 +29,20 @@ Benjamin Jourdain.
 
 | Semaine    | Cours                                                | TD                                                                |
 |:-----------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| 5-09 sep.  | [Introduction]                            |  [Basic Exercises](#09-09-2022-practical-session-1) |
-| 19-23 sep. | [Probability basics](#22-09-2022-lecture-2)                               |  [Basic Exercises](#22-09-2022-practical-session-2)     |
-| 26-02 sep. | [Common discrete probability laws](#29-09-2022-lecture-3)                                        |                                                         |
-| 03-07 oct. | ["Théorème de transfert"](#06-10-2022-lecture-4)                                        | |
-| 10-14 oct. | [Continuous random variables and common pdfs](#13-10-2022-lecture-5)   |                                 |
-| 17-21 oct. | [Théorème de transfert (continuous case)](#20-10-2022-lecture-6) |               |
-| 24-28 oct. | [Random generation of continuous and discrete random variables](#27-10-2022-lecture-7) |               |
+| 5-09 sep.  | Introduction                            |  Basic Exercises |
+| 19-23 sep. | Probability basics                               |  Basic Exercises     |
+| 26-02 sep. | Common discrete probability laws                 |                      |
+| 03-07 oct. | "Théorème de transfert"                                        | |
+| 10-14 oct. | Continuous random variables and common pdfs   |                                 |
+| 17-21 oct. | Théorème de transfert (continuous case) |               |
+| 24-28 oct. |  |               |
 | 01-04 nov. | Vacances                                                                  | Vacances                 |
-| 14-18 nov. | [Rejection Sampling](#17-11-2021-lecture-8)                               |  [Rejection Sampling in R](#17-11-2022-practical-session-8)     |
-| 21-25 nov. | [Modes of convergence of sequences of random variables](#24-11-2021-lecture-9)                               |  [Discrete generation in R](#25-11-2021-practical-session-9)     |
-| 28-02 nov. | [Law of Large Numbers / Central Limit Theorem](#01-12-2021-lecture-10)                               |  [LLN and CLT in R](#01-12-2022-practical-session-10)     |
-| 05-09 dec. | [Confidence Intervals](#08-12-2022-lecture-11)                               |  [Exercises on CIs](#08-12-2022-practical-session-11)     |
-| 12-16 dec. | Pas de cours                               |   [Correction of past exams](#15-12-2022-practical-session-12)     |
-| 02-06 jan. | Pas de cours                               |   Q/A     |
-
-
-
+| 14-18 nov. | Control continu                               |       |
+| 21-25 nov. | Random generation of continuous and discrete random variables |  Discrete generation in R     |
+| 28-02 nov. | Rejection Sampling      |    Rejection Sampling in R   |
+| 05-09 dec. | Modes of convergence of sequences of random variables                              |      |
+| 12-16 dec. | Law of Large Numbers / Central Limit Theorem                                |  LLN and CLT in R      |
+| 02-06 dec. | Pas de cours                               |   Correction of past exams     |
 
 
 
