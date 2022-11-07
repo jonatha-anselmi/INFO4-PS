@@ -1,4 +1,4 @@
-# INFO4-PS: Probabilit&eacute; et Simulation
+# INFO4-PS: Probabilit&eacute;s et simulation
 
 This is the website for the course "Probabilit&eacute;s et simulation" held at PolyTech INFO4, 2022-2023.
 
