@@ -34,11 +34,12 @@ Benjamin Jourdain.**
 | 17-21 oct. | Continuous random variables and common pdfs II (Ch.3)|               |
 | 24-28 oct. | Expectation and "Théorème de transfert" (continuous case) (Ch.3)|               |
 | 01-04 nov. | Vacances                                                                  | Vacances                 |
-| 14-18 nov. | Control continu                               |       |
-| 21-25 nov. | Random generation of continuous and discrete random variables (Ch.4) |  Discrete generation in R     |
-| 28-02 nov. | Rejection Sampling  (Ch.4)     |    Rejection Sampling in R   |
-| 05-09 dec. | Modes of convergence of sequences of random variables  (Ch.5)                             |      |
-| 12-16 dec. | Law of Large Numbers / Central Limit Theorem  (Ch.5)                               |  LLN and CLT in R      |
+| 7-11 nov. | Control continu                               |       |
+| 14-18 nov. | Random generation of continuous and discrete random variables (Ch.4) |  Discrete generation in R     |
+| 21-25 nov. | Rejection Sampling  (Ch.4) |  Rejection Sampling in R     |
+| 28-02 dec. | Modes of convergence of sequences of random variables  (Ch.5)                             |      |
+| 05-09 dec. | Law of Large Numbers / Central Limit Theorem  (Ch.5)                              |   LLN and CLT in R     |
+| 12-16 dec. |                               |      |
 | 02-06 dec. | Pas de cours                               |   Correction of past exams     |
 
 
