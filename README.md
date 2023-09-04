@@ -2,7 +2,7 @@
 
 This is the website for the course "Probabilit&eacute;s et simulation" held at PolyTech INFO4, 2022-2023.
 
-[Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the lectures and [Victor Boone](mailto:victor.boone@univ-grenoble-alpes.fr) will help with practical sessions (TD).
+[Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the lectures and [Louis-Sebastien Rebuffi](mailto:louis-sebastien.rebuffi@univ-grenoble-alpes.fr) will help with practical sessions (TD).
 
 The official schedule with room information is
 [here](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp).
