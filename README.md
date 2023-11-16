@@ -1,6 +1,6 @@
 # INFO4-PS: Probabilit&eacute;s et simulation
 
-This is the website for the course "Probabilit&eacute;s et simulation" held at PolyTech INFO4, 2022-2023.
+This is the website for the course "Probabilit&eacute;s et simulation" held at PolyTech INFO4, 2023-2024.
 
 [Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the lectures and [Louis-Sebastien Rebuffi](mailto:louis-sebastien.rebuffi@univ-grenoble-alpes.fr) will help with practical sessions (TD).
 
@@ -11,6 +11,9 @@ The official schedule with room information is
 presented in [Probabilités et statistique pour
 l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf), by
 Benjamin Jourdain.**
+
+Snippets of code written in class are published at this rpubs link: [https://rpubs.com/janselmi](https://rpubs.com/janselmi)
+
 
 - Some additional references for the interested student (deeper and longer explanations on most topics):
    + [Cours de Jean Bérard](http://math.univ-lyon1.fr/~jberard/cours-www.pdf)
