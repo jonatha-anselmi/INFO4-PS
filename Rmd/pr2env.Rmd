@@ -1,0 +1,51 @@
+---
+title: "Le problème des deux enveloppes<br><small>Probabilité et Simulation 2023, TD #9, INFO4, Polytech Grenoble</small>"
+author: "Jonatha Anselmi"
+output: html_document
+date: "2023-11-16"
+---
+
+### Le problème des deux enveloppes
+
+Au cours d’un jeu télévisé, un candidat tire au sort entre 2 enveloppes
+contenant respectivement les sommes $x_1$ et $x_2$, avec $(x_1 > x_2 > 0)$, qu’il ne connaı̂t pas. Après
+avoir examiné le contenu $X$ de son enveloppe, il a le choix entre conserver ce contenu
+et effectuer un échange avec l’autre enveloppe. On veut étudier la stratégie suivante : on
+se donne $T$ une variable exponentielle de paramètre 1 indépendante du tirage au sort
+et on change d’enveloppe seulement lorsque $T > X$. A l'aide de R, calculer la probabilité d’obtenir la
+somme la plus élevée $x_1$ en suivant cette stratégie. Est-elle supérieure ou inférieure à 1/2 ?
+
+
+### Code
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+x1=2;
+x2=1;
+
+N=1e6; # number of samples
+X=sample(c(x1,x2), N, replace=TRUE)
+T=rexp(N,1); # generate N samples from Exp(1)
+
+Y=X;
+
+# implement strategy
+for(i in 1:N)
+{
+  if (T[i]>X[i])
+  {
+    Y[i]=x1*(X[i]==x2)+x2*(X[i]==x1);
+  }
+}
+
+# calculate and print the probability of winning
+pwin=mean(Y==x1);
+print(paste0("the probability of winning the largest sum is ", pwin ));
+```
+
+<br>
+Trouvez-vous ce résultat intuitif ?
+
+<b>Facultatif</b> : adapter le code ci-dessus sans utiliser la boucle "for".
+
+<br><br>
