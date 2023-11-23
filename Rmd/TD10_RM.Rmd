@@ -1,0 +1,58 @@
+---
+title: "Rejection Method Example<br><small>Probabilité et Simulation 2023, TD #10, INFO4, Polytech Grenoble</small>"
+author: "Jonatha Anselmi"
+date: "November 23, 2023"
+output: html_document
+---
+
+
+## Rejection Method
+
+1. Use the Rejection Method to generate $n=10^5$ samples for the a random variable $X$ that has the pdf of $f_X(t)=\frac{t^2}{9}$, $0<t<3$.
+2. Estimate $P(X< 2)$ and compare your result with its exact value, i.e., $\frac{8}{27}$.
+3. Compute the average number of iterations of the rejection method to generate one sample
+4. Create a density histogram for your generated values and compare it with the theoretical density $f_X(t)$.
+
+### Hints
+ - use the `runif` command to sample from a uniform distribution
+ - use the `hist` command to create an histogram and `curve` to plot $f_X(t)$
+
+```{r setup, eval=TRUE, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+n=1e5;
+accept = c(); # Create an empty vector. This vector will contain the samples of X
+iter_vec = c(); # This vector will contain the number of iterations per sample
+
+k=3;
+for (count in 1:n){
+  # Rejection method here
+  j=0;
+  while(TRUE){
+    #Generate Ui and Yi
+    j=j+1;
+    Ui=runif(1,0,1);
+    Yi=runif(1,0,3);
+    # if k*q(Yi)*Ui<=p(Yi), or equivalently if we fall under the curve of density f_X,
+    # then accept Yi
+    if( k*Ui/3 <= Yi^2/9 ) {
+      accept[count]=Yi;
+      iter_vec[count]=j;
+      break;
+    }
+  }  
+}
+
+p_le2_rm=sum(accept<2)/n;
+p_le2_theory=8/27;
+print(paste0("The rejection method says P(X<2) = ", p_le2_rm ));
+print(paste0("  ... while theoretically P(X<2) = ", p_le2_theory ));
+
+iter_theory=k;
+iter=mean(iter_vec)
+print(paste0("The average number of iterations per sample is ", iter ));
+print(paste0("  ... while theoretically it is k = ", iter_theory ));
+
+hist(accept, probability = TRUE)
+curve(x^2/9, from = 0, to = 3,add=TRUE)
+
+```
