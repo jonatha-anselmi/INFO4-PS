@@ -39,7 +39,7 @@ Snippets of code written in class are published at this rpubs link: [https://rpu
 | 01-04 nov. | Vacances                                                                  | Vacances                 |
 | 7-11 nov. | Control continu                               |       |
 | 14-18 nov. | Random generation of continuous and discrete random variables (Ch.4) |  Discrete generation in R     |
-| 21-25 nov. | Rejection Sampling  (Ch.4) |  [https://github.com/jonatha-anselmi/INFO4-PS/blob/master/Rmd/TD10_RM.Rmd](Rejection Sampling in R)     |
+| 21-25 nov. | Rejection Sampling  (Ch.4) |  [Rejection Sampling in R](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/Rmd/TD10_RM.Rmd)     |
 | 28-02 dec. | Modes of convergence of sequences of random variables  (Ch.5)                             |      |
 | 05-09 dec. | Law of Large Numbers / Central Limit Theorem  (Ch.5)                              |   LLN and CLT in R     |
 | 12-16 dec. |                               |      |
