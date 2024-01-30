@@ -1,6 +1,6 @@
 # INFO4-PS: Probabilit&eacute;s et simulation
 
-This is the website for the course "Probabilit&eacute;s et simulation" held at PolyTech INFO4, 2023-2024.
+This is the website for the "Probabilit&eacute;s et simulation" course held at PolyTech INFO4, 2023-2024.
 
 [Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the lectures and [Louis-Sebastien Rebuffi](mailto:louis-sebastien.rebuffi@univ-grenoble-alpes.fr) will help with practical sessions (TD).
 
