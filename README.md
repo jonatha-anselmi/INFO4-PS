@@ -4,8 +4,7 @@ This is the website for the "Probabilit&eacute;s et simulation" course held at P
 
 [Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the lectures and [Louis-Sebastien Rebuffi](mailto:louis-sebastien.rebuffi@univ-grenoble-alpes.fr) will help with practical sessions (TD).
 
-The official schedule with room information is
-[here](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp).
+See the [official schedule](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp) with room information.
 
 **We will follow and cover most of the material
 presented in [Probabilités et statistique pour
