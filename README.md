@@ -4,6 +4,8 @@ This is the website for the "Probabilit&eacute;s et simulation" course held at P
 
 [Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the lectures and [Davide Legacci](mailto:davide.legacci@univ-grenoble-alpes.fr) will help with practical sessions (TD).
 
+Additional material for the practical sessions will be published here: [probasim24](https://github.com/davidelegacci/probasim24).
+
 See the [official schedule](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp) with room information.
 
 **We will follow and cover most of the material
