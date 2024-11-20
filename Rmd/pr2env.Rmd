@@ -1,8 +1,8 @@
 ---
-title: "Le problème des deux enveloppes<br><small>Probabilité et Simulation 2023, TD #9, INFO4, Polytech Grenoble</small>"
+title: "Le problème des deux enveloppes<br><small>Probabilité et Simulation 2024, TD #9, INFO4, Polytech Grenoble</small>"
 author: "Jonatha Anselmi"
 output: html_document
-date: "2023-11-16"
+date: "2024-11-14"
 ---
 
 ### Le problème des deux enveloppes
@@ -16,7 +16,23 @@ et on change d’enveloppe seulement lorsque $T > X$. A l'aide de R, calculer la
 somme la plus élevée $x_1$ en suivant cette stratégie. Est-elle supérieure ou inférieure à 1/2 ?
 
 
+### Solution
+
+Nous choisissons $x_1$ si $X=x_2$ et $T>X$, ou si $X=x_1$ et $T\le X$.
+Par conséquent, par $\sigma$-additivité, la probabilité de choisir $x_1$, soit $p_{x_1}$, est donnée par
+$$
+p_{x_1} = P(T>X \cap X=x_2) + P(T\le X \cap X=x_1).
+$$
+Par indépendance
+$$
+p_{x_1} = P(T>X)P(X=x_2) + P(T\le X)P(X=x_1) = \frac{1}{2} (P(T>X)+P(T\le X)).
+$$
+Pour conclure, il suffit de constater que  $P(T>X)+P(T\le X)>1$, et donc $p_{x_1}>1/2$.
+
+
 ### Code
+
+Ecrivons un code en R qui simule le jeu des deux enveloppes.
 
 ```{r setup, include=TRUE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -44,8 +60,7 @@ print(paste0("the probability of winning the largest sum is ", pwin ));
 ```
 
 <br>
-Trouvez-vous ce résultat intuitif ?
 
-<b>Facultatif</b> : adapter le code ci-dessus sans utiliser la boucle "for".
+<b>Facultatif</b>: adapter le code ci-dessus sans utiliser la boucle "for".
 
 <br><br>
