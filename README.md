@@ -1,10 +1,10 @@
 # INFO4-PS: Probabilit&eacute;s et simulation
 
-This is the website for the "Probabilit&eacute;s et simulation" course held at PolyTech INFO4, 2023-2024.
+This is the website for the "Probabilit&eacute;s et simulation" course held at PolyTech INFO4.
 
-[Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the lectures and [Davide Legacci](mailto:davide.legacci@univ-grenoble-alpes.fr) will help with practical sessions (TD).
+[Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the lectures and [Davide Legacci](mailto:davide.legacci@univ-grenoble-alpes.fr) will help with exercise sessions (TD).
 
-Additional material for the practical sessions will be published here: [probasim24](https://github.com/davidelegacci/probasim24).
+Expanded explanations of class exercises: [probasim24](https://github.com/davidelegacci/probasim24).
 
 See the [official schedule](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp) with room information.
 
