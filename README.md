@@ -2,7 +2,7 @@
 
 This is the website for the "Probabilit&eacute;s et simulation" course held at PolyTech INFO4.
 
-[Jonatha Anselmi](mailto:jonatha.anselmi@inria.fr) is in charge of the lectures and [Davide Legacci](mailto:davide.legacci@univ-grenoble-alpes.fr) will help with exercise sessions (TD).
+[Jonatha Anselmi](https://polaris.imag.fr/jonatha.anselmi/) is in charge of the lectures and [Davide Legacci](mailto:davide.legacci@univ-grenoble-alpes.fr) will help with exercise sessions (TD).
 
 Expanded explanations of class exercises: [probasim24](https://github.com/davidelegacci/probasim24).
 
