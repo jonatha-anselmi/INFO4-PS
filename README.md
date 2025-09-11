@@ -25,7 +25,7 @@ We will write code in R and to this end, it is recommended to install [RStudio](
    + [Initiation aux probabilités](https://books.google.fr/books?id=6TjJW8tpQLwC&redir_esc=y&hl=fr)
      by Sheldon M. Ross.
    + Initiation aux Probabilités, by P. Brémaud (un ouvrage de référence, très très complet)
-   + [Theoretical Computer Science Cheat Sheet](https://www.tug.org/texshowcase/cheat.pdf) :)
+   + [Theoretical Computer Science Cheat Sheet](https://www.tug.org/texshowcase/cheat.pdf) 
 
 
 ## Course content and planning
