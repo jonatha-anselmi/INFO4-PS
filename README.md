@@ -4,7 +4,9 @@ This is the website for the "Probabilit&eacute;s et simulation" course held at P
 
 [Jonatha Anselmi](https://polaris.imag.fr/jonatha.anselmi/) is in charge of the lectures and [Davide Legacci](mailto:davide.legacci@univ-grenoble-alpes.fr) will help with exercise sessions (TD).
 
-Expanded explanations of class exercises: [probasim24](https://github.com/davidelegacci/probasim24).
+<!--
+ Expanded explanations of class exercises: [probasim24](https://github.com/davidelegacci/probasim24).
+-->
 
 See the [official schedule](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp) with room information.
 
