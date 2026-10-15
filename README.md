@@ -2,11 +2,7 @@
 
 This is the website for the "Probabilit&eacute;s et simulation" course held at PolyTech INFO4.
 
-[Jonatha Anselmi](https://polaris.imag.fr/jonatha.anselmi/) is in charge of the lectures and [Davide Legacci](mailto:davide.legacci@univ-grenoble-alpes.fr) will help with exercise sessions (TD).
-
-<!--
- Expanded explanations of class exercises: [probasim24](https://github.com/davidelegacci/probasim24).
--->
+[Jonatha Anselmi](https://polaris.imag.fr/jonatha.anselmi/) is in charge of the lectures and [Karl Gottlieb](mailto:karl.gottlieb@inria.fr) will help with exercise sessions (TD).
 
 See the [official schedule](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp) with room information.
 
@@ -15,6 +11,7 @@ presented in [Probabilités et statistique pour
 l’ingénieur](https://cermics.enpc.fr/~jourdain/probastat/poly.pdf), by
 Benjamin Jourdain.**
 
+Here, [expanded explanations](https://github.com/jonatha-anselmi/INFO4-PS/blob/master/pdf/probasim.pdf) of class exercises (TD).
 
 We will write code in R and to this end, it is recommended to install [RStudio](https://posit.co/download/rstudio-desktop/). Snippets of code written in class are published at this rpubs link: [https://rpubs.com/janselmi](https://rpubs.com/janselmi)
 
